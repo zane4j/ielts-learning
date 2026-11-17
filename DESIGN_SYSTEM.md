@@ -1,0 +1,88 @@
+# IELTS Learning · Design System v1.0
+
+> All current and future GitHub Pages HTML must follow this specification. The actual CSS source of truth is `assets/css/site.css`. Visual examples: https://zane4j.github.io/ielts-learning/design-system/
+
+## Purpose
+
+This is a **reading-first** site for IELTS speaking notes, writing reviews and annotated essays. Optimize for long-form readability, not dashboard density or decoration. Keep one consistent design language for all site pages.
+
+## Required files and layout
+
+- Shared CSS: `assets/css/site.css`
+- Shared interactions: `assets/js/site.js`
+- Design examples: `design-system/index.html`
+- New page starter: `templates/page.html.example`
+- Validation: `scripts/check-design.mjs`
+- CI enforcement: `.github/workflows/design-system-check.yml`
+
+Every HTML page must reference the shared CSS and JS with **working relative paths**, contain `lang="zh-CN"` (or the actual dominant page language), a `viewport` meta tag, exactly one `<h1>`, and a `<main>`. HTML pages must not define page-specific `<style>` blocks, `style="..."` attributes or style-related event handlers. Add reusable rules to the shared stylesheet instead. Inline highlighting must use documented semantic CSS classes.
+
+## Visual foundations
+
+- Background: `--color-page: #f7f8fa`; surfaces: `--color-surface: #ffffff`.
+- Main text: `--color-text: #243247`; headings: `--color-text-strong: #172438`; secondary text: `--color-muted: #53647a`.
+- Links and primary action: `--color-link: #225588`, `--color-brand: #224b74`.
+- Borders: `--color-border: #dce3eb`; use thin borders and very subtle shadows.
+- Font: system sans-serif for UI/CN explanation; Georgia/Times-style serif fallback for full English essay reading.
+- Default body: 16px, line-height 1.75; IELTS essay: approximately 17.5px, line-height 1.98.
+- Comfortable long-form line width: `max-width: 69ch`; page container up to `70rem` for comparison/table layout.
+- H1: 26–38px, H2: 21–25px, logical heading levels.
+- Spacing: use shared `--space-*` tokens, not arbitrary custom values. Maintain paragraph breaks; do not insert manual line breaks inside a natural paragraph.
+- Focus ring visible to keyboard users; honor reduced motion. Target WCAG 2.2 AA text contrast (4.5:1 normal, 3:1 large). Test browser zoom and mobile layout.
+- Use calm white card surfaces; avoid loud saturated gradients and badge-heavy designs.
+
+## Semantic highlighting
+
+**In side-by-side original-versus-correction comparisons:** highlight only the changed portion in the *corrected* column using `<mark class="diff">` (soft yellow `#fff0b3`). Never modify the user's original in the left column.
+
+**Only in complete corrected essays and Band 7.5 model essays:** use five soft background categories with deep text:
+- `hl-logic`: pale red `#fce2e2`, bold + underline: connectors
+- `hl-trend`: pale blue `#deecff`, bold: changes and trend verbs
+- `hl-degree`: pale orange `#fff0c9`, bold: degree adverbs
+- `hl-data`: pale green `#e2f3dd`, underline: data, ranges, comparisons
+- `hl-structure`: pale purple `#f1e2ff`, bold + underline: reusable grammar/complex syntax
+
+Never convey meaning by color alone: labels, boldness and underlining distinguish categories. Do not stack conflicting color classes on the same span.
+
+## IELTS Task 1 review page structure (required)
+
+1. Four-dimensional assessment (TA / CC / LR / GRA) and overall estimate.
+2. Four side-by-side sections: Introduction / Overview / Body 1 / Body 2, **original left, minimally corrected right**, actual changes yellow, short explanation below each.
+3. Complete corrected essay with four natural paragraphs, **no P1/P2/Intro/Body labels within the essay**, five background highlights, re-score.
+4. Band 7.5 model answer, same four-paragraph reading format and five highlights.
+5. Error patterns, reusable expressions and optionally data verification. Never confuse percentage and percentage points.
+
+Use `.compare-section`, `.compare-grid`, `.paper.original`, `.paper.revised`, `.annotation`, `.essay-card`, `.score` from shared CSS. Desktop dual columns; under 850px stack into one column. The full essay must not add artificial line breaks inside paragraphs.
+
+## UX navigation and interactions
+
+- Every new page must have a path back to its directory and the site home.
+- Keep the home/directory indexes updated: `index.html` for the site, `writing/index.html`, `writing/task1/index.html`, as applicable.
+- Preserve Markdown navigation in `README.md`, `writing/README.md`, `writing/task1/README.md`.
+- Use shared JS controls with `data-copy="id"`, `data-action="toggle-highlight"`, `data-action="toggle-size"`, `data-action="print"` rather than inline JS. Rich-copy attempts HTML + plain text but Feishu may still handle pasting differently.
+- Links must have readable labels, keyboard operation must work, and printing should preserve background highlighters where supported.
+
+## How ChatGPT / other code agents must work
+
+1. **Read `AGENTS.md` and this file before changing or adding a page.**
+2. Read relevant existing pages and shared CSS before editing; preserve original user writing and existing links.
+3. Make semantic, minimal changes. Never copy/paste independent CSS into HTML or override styles per page.
+4. If a new component/token is genuinely necessary, update shared CSS, document it here, and update `design-system/index.html` with a visible example.
+5. When adding or removing content, update the correct directory index and relative Markdown navigations.
+6. Run `node scripts/check-design.mjs` and address failures **before** committing.
+7. Confirm the site at https://zane4j.github.io/ielts-learning/ and test the relevant subpage navigation and mobile reading (manual check or browser test).
+8. If automatic validation reports failure, do not describe the page as fully compliant.
+9. Preserve users' data; do not overwrite unrelated speaking/IELTS files.
+
+## Enforcement and limitations
+
+`scripts/check-design.mjs` is automatically run via GitHub Actions for every push and PR. It covers enforceable HTML structure, shared asset usage, relative asset validity, styling violations, and navigation files. It does **not** prove full WCAG compliance, visual quality, or correct reading flow. For stronger enforcement, repository admin should enable **branch protection/ruleset** on `main` requiring the design check to pass before merging (and restrict direct pushes). Without that rule, GitHub can report a failure but cannot block all pushes.
+
+**Note:** GitHub's native rendering of `.md` files uses GitHub's styles and cannot load this site's CSS. The design system applies to HTML pages served on GitHub Pages; Markdown notes should use consistent headings, tables and links.
+
+## References
+
+- W3C WCAG 2.2 (Contrast Minimum): https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html
+- USWDS Typography: https://designsystem.digital.gov/components/typography/
+- GitHub Primer Typography: https://primer.style/foundations/typography
+- GOV.UK Design System Layout: https://design-system.service.gov.uk/styles/layout/
