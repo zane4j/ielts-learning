@@ -6,14 +6,16 @@
 
 ### Topic 与 Cue Card 分类目录
 
+点击分类即可在同一页阅读该类全部题卡，无需逐题跳转。
+
 [中国大陆基线 54 条 Topic](speaking/part2/topics/README.md)
 
 | 分类 | 数量 | 跳转 |
 | --- | ---: | --- |
-| 人物类 | 16 | [打开目录](speaking/part2/topics/people/README.md) |
-| 地点类 | 9 | [打开目录](speaking/part2/topics/places/README.md) |
-| 事件类 | 17 | [打开目录](speaking/part2/topics/events/README.md) |
-| 物品与抽象事物类 | 12 | [打开目录](speaking/part2/topics/objects/README.md) |
+| 人物类 | 16 | [查看全部题卡](speaking/part2/topics/people/README.md) |
+| 地点类 | 9 | [查看全部题卡](speaking/part2/topics/places/README.md) |
+| 事件类 | 17 | [查看全部题卡](speaking/part2/topics/events/README.md) |
+| 物品与抽象事物类 | 12 | [查看全部题卡](speaking/part2/topics/objects/README.md) |
 
 > Cue card 根据此前手册的题意与扣题检查整理为英文练习版，非逐字官方题卡。仅保留此前整理的中国大陆基线题，详见总目录。
 

@@ -9,7 +9,7 @@
 | 事件类 | 17 | [查看 Topic 与 cue card](events/README.md) |
 | 物品与抽象事物类 | 12 | [查看 Topic 与 cue card](objects/README.md) |
 
-共 54 题。每题独立文件，仅包含 Topic 与英文练习 cue card。
+共 54 题。每个分类页面直接展示该类全部 Topic 与英文练习 cue card，无需逐题打开文件。
 
 ## 来源与范围
 
