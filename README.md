@@ -4,7 +4,20 @@
 
 ## 口语 Speaking · Part 2
 
-### 地点类 Places
+### Topic 与 Cue Card 分类目录
+
+[全部 87 条 Topic](speaking/part2/topics/README.md)
+
+| 分类 | 数量 | 跳转 |
+| --- | ---: | --- |
+| 人物类 | 24 | [打开目录](speaking/part2/topics/people/README.md) |
+| 地点类 | 14 | [打开目录](speaking/part2/topics/places/README.md) |
+| 事件类 | 30 | [打开目录](speaking/part2/topics/events/README.md) |
+| 物品与抽象事物类 | 19 | [打开目录](speaking/part2/topics/objects/README.md) |
+
+> Cue card 根据此前手册的题意与扣题检查整理为英文练习版，非逐字官方题卡。包含原清单基线题及补充变体，详见总目录。
+
+### 已有完整文章 · 地点类 Places
 
 - [地点类总览与文章词数](speaking/part2/places/README.md)
 - [共用框架与时长优化方法](speaking/part2/places/FRAMEWORK.md)
