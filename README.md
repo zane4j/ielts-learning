@@ -2,6 +2,17 @@
 
 点击下面的链接，直接打开对应的学习材料。
 
+## 站点样式规范
+
+- [在线样式示例（GitHub Pages）](https://zane4j.github.io/ielts-learning/design-system/)
+- [统一设计规范](DESIGN_SYSTEM.md)
+- [ChatGPT / Agent 仓库规则](AGENTS.md)
+- [自动检查工作流](.github/workflows/design-system-check.yml)
+
+新增或修改 HTML 页面，必须引用共享 CSS/JS 并通过 **Design System** 自动检查。
+
+---
+
 ## 写作 Writing · Task 1
 
 - [写作总目录（GitHub Pages）](https://zane4j.github.io/ielts-learning/writing/)
