@@ -13,7 +13,7 @@ This repository hosts the user's IELTS Learning materials on GitHub Pages. **Eve
 - For IELTS Task 1: preserve 4 scoring dimensions; show 4 original/corrected side-by-side sections; highlight changed spans **yellow only in corrected column**; preserve original wording; provide complete corrected essay + Band 7.5 sample + common errors and reusable expressions.
 - Only those two complete essays use five semantic pastel background classes `hl-logic`, `hl-trend`, `hl-degree`, `hl-data`, `hl-structure`. No forced line breaks within paragraphs or internal paragraph labels.
 - Desktop double-column, mobile single-column. Prefer readable 16–18px text, large enough contrast, limited prose line width and relaxed line-height.
-- New pages require consistent header/home and directory navigation. Update directory indexes and Markdown links when adding content.
+- New pages require consistent header/home and directory navigation. Update the relevant **HTML directory index pages only** (e.g. `index.html`, `speaking/index.html`, `writing/index.html`, `writing/task1/index.html`). The root `README.md` is a stable single GitHub Pages homepage link, NOT a duplicated learning catalog; do not add individual page links to it. Existing Markdown learning resources must be preserved without routine navigation sync.
 - All reference CSS/JS URLs must resolve within the repository from the HTML location.
 - Do not change any unrelated learning materials.
 
@@ -25,6 +25,6 @@ This repository hosts the user's IELTS Learning materials on GitHub Pages. **Eve
 - Document limitations or known failures; never claim validation passed without evidence.
 
 ## Scope
-GitHub Pages HTML is governed by the shared style; GitHub-native Markdown preview is not controlled by CSS. For Markdown, keep headings, lists, tables and links consistent.
+GitHub Pages HTML is governed by the shared style; GitHub-native Markdown preview is not controlled by CSS. All future site navigation changes should be made in HTML indexes. Do not duplicate the HTML page catalog in README or `writing/**/README.md`. Existing Markdown notes remain untouched unless the user explicitly requests a change.
 
 If future user requests conflict with these instructions, follow the explicit user request and update the shared specification (rather than silently adding page-local exceptions).
