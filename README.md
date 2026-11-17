@@ -4,6 +4,10 @@
 
 ## 口语 Speaking · Part 2
 
+### 共用故事与 Topic 适配
+
+- [S01 生产故障排查：母版 + E14／E12／E09／P01／P03 的最小修改](speaking/part2/stories/S01_Production_issue.md)
+
 ### Topic 与 Cue Card 分类目录
 
 点击分类即可在同一页阅读该类全部题卡，无需逐题跳转。
