@@ -2,6 +2,17 @@
 
 点击下面的链接，直接打开对应的学习材料。
 
+## 写作 Writing · Task 1
+
+- [写作总目录（GitHub Pages）](https://zane4j.github.io/ielts-learning/writing/)
+- [Task 1 小作文目录（GitHub Pages）](https://zane4j.github.io/ielts-learning/writing/task1/)
+- **[Practice 03 · 五行业就业占比：原文／修正版逐段双栏对照 + 五色背景精读](https://zane4j.github.io/ielts-learning/writing/task1/employment-sector-review.html)**
+- [Writing Markdown 目录（GitHub）](writing/README.md)
+
+说明：双栏右侧以浅黄色标出修改处；下方保留完整修正版、Band 7.5 目标范文与五色背景高亮。
+
+---
+
 ## 口语 Speaking · Part 2
 
 ### 共用故事与 Topic 适配
