@@ -197,6 +197,33 @@ mark{color:var(--color-text-strong);border-radius:2px;padding:0 2px;-webkit-box-
 @media(max-width:570px){.speaking-compact .site-main{padding:.7rem .8rem 1.8rem}.speaking-compact .hero{padding:.8rem .95rem}.speaking-compact .hero p{font-size:.87rem}.speaking-compact .mainnav{gap:.25rem}.speaking-compact .mainnav a{padding:.2rem .4rem;font-size:.76rem}.speaking-compact .essay-card.speaking-answer{padding:.75rem .85rem}.speaking-compact .speaking-answer p{font-size:1.01rem;line-height:1.72}.speaking-compact .speaking-answer h3{margin:1rem 0 .28rem}.speaking-compact .keyword-list li{font-size:.77rem}}
 @media print{.speaking-compact .essay-card.speaking-answer{padding:.3rem 0}.speaking-compact .speaking-answer p{break-inside:avoid}}
 
+
+/* Zoe authoritative 24-topic, three-part handout: preserve original paragraphs and bold changes. */
+.zoe-final .zoe-topic-content,.zoe-final .zoe-full-document{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-md);padding:1rem 1.35rem}
+.zoe-final .zoe-topic-content h3,.zoe-final .zoe-full-document h3{font-size:.95rem;letter-spacing:.01em;margin:1.05rem 0 .35rem}
+.zoe-final .zoe-topic-content h3:first-child{margin-top:0}
+.zoe-final .zoe-topic-content p,.zoe-final .zoe-full-document p{margin:0 0 .67rem;max-width:78ch;line-height:1.73}
+.zoe-final .zoe-english{font-size:1.04rem;font-family:var(--font-reading);line-height:1.84}
+.zoe-final .zoe-english strong{background:var(--color-highlight-structure);color:var(--color-text-strong);font-weight:700;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.zoe-final .zoe-field{font-size:.77rem;line-height:1.35;margin:.55rem 0 .1rem;color:var(--color-muted)}
+.zoe-final .zoe-field strong{font-weight:750}
+.zoe-final .zoe-topic-content h3 + .zoe-field{margin-top:.15rem}
+.zoe-final .zoe-topic-content .zoe-note{font-size:.92rem}
+.zoe-final .zoe-topic-content .zoe-note:last-child{margin-bottom:0}
+.zoe-final .zoe-list-line{padding-left:.65rem;margin:.2rem 0;font-size:.9rem}
+.zoe-final blockquote{border-left:3px solid var(--color-border-strong);margin:.65rem 0;padding:.35rem .85rem;background:var(--color-surface-soft);font-size:.92rem}
+.zoe-final blockquote p{margin:0 0 .15rem}
+.zoe-final .zoe-full-document h2{font-size:1.16rem;margin:1.45rem 0 .45rem}
+.zoe-final .zoe-full-document h2:first-child{margin-top:0}
+.zoe-final .zoe-full-document hr{border:0;border-top:1px solid var(--color-border);margin:1.35rem 0}
+.zoe-final .zoe-topic-content code,.zoe-final .zoe-full-document code{font:inherit;background:var(--color-surface-soft);padding:.05rem .2rem}
+.zoe-final .speaking-topic-link{gap:.45rem}
+.zoe-final .speaking-topic-link strong{flex:1;min-width:0}
+.zoe-final .speaking-topic-link small{font-size:.7rem;color:var(--color-subtle);margin-left:auto}
+.zoe-final .detail-note{margin:.45rem 0 .7rem}
+@media(max-width:570px){.zoe-final .zoe-topic-content,.zoe-final .zoe-full-document{padding:.78rem .88rem}.zoe-final .zoe-english{font-size:1.02rem}.zoe-final .speaking-topic-link small{display:none}}
+@media print{.zoe-final .zoe-topic-content,.zoe-final .zoe-full-document{border:0;padding:0}.zoe-final .zoe-english strong{print-color-adjust:exact;-webkit-print-color-adjust:exact}}
+
 /* Mobile readability / 200% zoom reflow */
 @media(max-width:850px){.score-wrap{grid-template-columns:repeat(3,minmax(0,1fr))}.compare-grid,.learning-grid{grid-template-columns:1fr}.paper.original{border-right:0;border-bottom:1px solid var(--color-border)}.swatch-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:570px){.container,.wrap,.site-main{padding:1.15rem .85rem 3rem}.top,.topbar,.site-header{padding:.75rem .9rem}.hero{padding:1.55rem 1.35rem}.card{padding:1.1rem}.paper{padding:1.1rem}.paper p{font-size:1rem}.essay-card{padding:1.3rem}.essay-card p{font-size:1.06rem}.section-sub{display:none}.section-head{padding:.9rem 1rem}.annotation{padding:.9rem 1rem}.score-wrap{grid-template-columns:repeat(2,minmax(0,1fr))}.score .num{font-size:1.45rem}.hero h1{font-size:1.72rem}.swatch-grid{grid-template-columns:1fr}}

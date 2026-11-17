@@ -110,3 +110,13 @@ Use `.compare-section`, `.compare-grid`, `.paper.original`, `.paper.revised`, `.
 ## Speaking 自然分段补充规范（v1.2，2026-11）
 
 紧凑版压缩的是页面 chrome 和卡片留白，不是自然语言的分段。完整稿必须保持如下视觉层级：INTRO 人物身份 / 外貌 / 性格分别一行；WHAT 主题说明 / 具体特点各为独立段落；STORY 的视频引子独立一段，视频经过和结果另起一段；WHY / FEELING 与 ENDING 各自独立。五个部分的标题上方保留明显空隙（比同部分的自然段间距更大）。共享 JS 复制时仍按 `<p>` 保留段落。适用于 Zoe 模板和全部 P01–P16 文章。
+
+## 人物类最终稿 · Zoe 24 Topics（三段式，2026-11-17）
+
+**唯一权威内容**：`speaking/part2/people/IELTS_Part2_Zoe.md`（来自用户提供的原文，逐字保存）。所有人物类当前阅读目录：`speaking/part2/people/index.html`；模板与两个核心故事：`zoe-template.html`；整份网页手册：`zoe-complete.html`；每题独立页面：`zoe-01.html` 至 `zoe-24.html`。
+
+- 此版本是 **1 — INTRO → 2 — WHAT → 3 — WHY / HOW**，替代旧 16 题的五段式 Zoe 练习稿；不得用五段式自动改写用户定稿。旧 HTML 保留为历史资料，不再从当前目录推荐。
+- **加粗英文表示根据 Topic 修改/新增的内容**，非加粗英文为固定句。网页使用 `.zoe-english strong` 的淡紫背景辅助区分。不是原版的“粗体=固定模板”。
+- 内容必须忠实源文件，保留 24 题全部英文与中文提示、目录、使用说明、两个核心 Example、文末备考提醒。题目页面只抽取对应原始区块，不增删改写句子；原始 Markdown 是核对依据。
+- 继续沿用 `speaking-compact` 页面紧凑阅读模式、共享 CSS/JS、HTML 目录与相对资源路径；语义段落之间须自然换行，不能把整篇压成一行。
+- 旧版 P01–P16 路径和资料可供历史查看，不得再作为最新人物类导航入口。README 仍只链向网站主页；更新网站 `index.html` 和 `speaking/index.html`。
