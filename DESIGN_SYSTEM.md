@@ -86,3 +86,11 @@ Use `.compare-section`, `.compare-grid`, `.paper.original`, `.paper.revised`, `.
 - USWDS Typography: https://designsystem.digital.gov/components/typography/
 - GitHub Primer Typography: https://primer.style/foundations/typography
 - GOV.UK Design System Layout: https://design-system.service.gov.uk/styles/layout/
+
+## Speaking Part 2 · Zoe 人物模板与关键词（2026-11）
+
+- 人物模板、使用说明：`speaking/part2/people/zoe-template.html`；目录：`speaking/part2/people/index.html`；16 道题均有独立 HTML 页面。
+- 统一五段：INTRO、WHAT、STORY、WHY / FEELING、ENDING；每部分以小标题及**一个自然段**呈现，段内不强行换行。
+- 仅固定模板语言加粗（`<strong>`）；每题 1 分钟准备关键词用 `<mark class="speaking-keyword">` 在完整原文与关键词清单同时标注。样式为浅绿色 + 加粗 + 下划线，和写作批改专用 `diff`、五色批注区分。
+- 使用 `.speaking-answer` 控制框架段落样式，用 `.keyword-list` 在宽屏双栏显示关键词、窄屏单栏。隐藏高亮、放大字号和富文本复制复用 `assets/js/site.js`。
+- 姓名、年龄、职业身份和具体经历属于口语训练设定；不能把“仅看视频”代替真实朋友关系或“看运动视频”代替运动员成就。

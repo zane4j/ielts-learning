@@ -142,6 +142,16 @@ mark{color:var(--color-text-strong);border-radius:2px;padding:0 2px;-webkit-box-
 .swatch-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:.75rem;margin:1rem 0}
 .swatch{background:var(--color-surface);border:1px solid var(--color-border);border-radius:.65rem;padding:1rem;min-width:0}
 .swatch small{display:block;margin-top:.4rem}
+/* Speaking Part 2: semantic keyword highlights and five-part answer formatting */
+.speaking-keyword{background:var(--color-highlight-data);font-weight:750;text-decoration:underline;text-underline-offset:2px}
+.speaking-answer h3{font-family:var(--font-ui);font-size:.95rem;letter-spacing:.015em;color:var(--color-muted);margin:1.45rem 0 .5rem}
+.speaking-answer h3:first-child{margin-top:0}
+.speaking-answer p{font-size:1.06rem;line-height:1.9}
+.keyword-list{columns:2;column-gap:2rem;margin:.65rem 0 0;padding-left:1.55rem}
+.keyword-list li{break-inside:avoid;line-height:1.8;margin-bottom:.35rem}
+.clean .speaking-keyword{background:transparent!important;text-decoration:none!important}
+.reading-large .speaking-answer p{font-size:1.2rem}
+@media(max-width:570px){.keyword-list{columns:1}}
 /* Mobile readability / 200% zoom reflow */
 @media(max-width:850px){.score-wrap{grid-template-columns:repeat(3,minmax(0,1fr))}.compare-grid,.learning-grid{grid-template-columns:1fr}.paper.original{border-right:0;border-bottom:1px solid var(--color-border)}.swatch-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:570px){.container,.wrap,.site-main{padding:1.15rem .85rem 3rem}.top,.topbar,.site-header{padding:.75rem .9rem}.hero{padding:1.55rem 1.35rem}.card{padding:1.1rem}.paper{padding:1.1rem}.paper p{font-size:1rem}.essay-card{padding:1.3rem}.essay-card p{font-size:1.06rem}.section-sub{display:none}.section-head{padding:.9rem 1rem}.annotation{padding:.9rem 1rem}.score-wrap{grid-template-columns:repeat(2,minmax(0,1fr))}.score .num{font-size:1.45rem}.hero h1{font-size:1.72rem}.swatch-grid{grid-template-columns:1fr}}
