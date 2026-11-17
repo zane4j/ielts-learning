@@ -90,7 +90,7 @@ Use `.compare-section`, `.compare-grid`, `.paper.original`, `.paper.revised`, `.
 ## Speaking Part 2 · Zoe 人物模板与关键词（2026-11）
 
 - 人物模板、使用说明：`speaking/part2/people/zoe-template.html`；目录：`speaking/part2/people/index.html`；16 道题均有独立 HTML 页面。
-- 统一五段：INTRO、WHAT、STORY、WHY / FEELING、ENDING；每部分以小标题及**一个自然段**呈现，段内不强行换行。
+- 统一五段：INTRO、WHAT、STORY、WHY / FEELING、ENDING；每个框架部分单独展示；INTRO 的人物介绍、外貌、性格分别成行；WHAT 的主题描述与具体事实分段；STORY 的引子和具体过程分段。句子内部不强制换行。
 - 仅固定模板语言加粗（`<strong>`）；每题 1 分钟准备关键词用 `<mark class="speaking-keyword">` 在完整原文与关键词清单同时标注。样式为浅绿色 + 加粗 + 下划线，和写作批改专用 `diff`、五色批注区分。
 - 使用 `.speaking-answer` 控制框架段落样式，用 `.keyword-list` 在宽屏双栏显示关键词、窄屏单栏。隐藏高亮、放大字号和富文本复制复用 `assets/js/site.js`。
 - 姓名、年龄、职业身份和具体经历属于口语训练设定；不能把“仅看视频”代替真实朋友关系或“看运动视频”代替运动员成就。
@@ -100,9 +100,13 @@ Use `.compare-section`, `.compare-grid`, `.paper.original`, `.paper.revised`, `.
 针对 `speaking/part2/people/` 中的 Zoe 模板、目录及 16 道题启用 `<body class="speaking-compact">`，其他 Speaking 页面可选择复用。通过共享 `assets/css/site.css` 的同名前缀规则实施，不影响 Writing 布局。
 
 - **默认阅读顺序：**短页头 → 1 分钟关键词 → 五段完整英文稿 → 可展开 Cue Card → 可展开改动说明；文章和关键词始终默认可见。
-- **减少留白、不压缩字体：**缩减 hero、卡片、导航和模块间距，保持英文 16–17px 左右和 1.7 以上行距，限制行宽。五段框架各为一个自然段，段内不人为换行。
+- **减少留白、不压缩字体：**缩减 hero、卡片、导航和模块间距，保持英文 16–17px 左右和 1.7 以上行距，限制行宽。五段框架必须清晰分隔；INTRO 分为人物介绍、外貌、性格三个自然段；WHAT 和 STORY 按语义进行自然段换行，特别是 STORY 的引入句应独立成段；WHY 与 ENDING 独立成段。禁止将多项内容压成一段，也不逐句硬换行。
 - **关键词与框架：**关键词以自动换行的短标签列出，并在正文以 `.speaking-keyword` 背景标注；固定框架保留粗体，两种语义明确区分。
 - **辅助内容折叠：**使用原生 `details/summary`，折叠题卡及附加说明。要提供明确 summary，支持键盘与触屏；不要隐藏主要回答。
 - **紧凑目录：**`.speaking-topic-grid` 双栏 Topic 链接，窄屏切为单栏；保留完整题号和可访问链接。
 - **交互和一致性：**复制、放大、隐藏高亮沿用共享 JS；不允许页面内 CSS 和内联事件。保留目录与首页回链。
 - **检查范围：**手机、放大阅读、键盘、打印。页面布局结构示例见 `design-system/index.html`。
+
+## Speaking 自然分段补充规范（v1.2，2026-11）
+
+紧凑版压缩的是页面 chrome 和卡片留白，不是自然语言的分段。完整稿必须保持如下视觉层级：INTRO 人物身份 / 外貌 / 性格分别一行；WHAT 主题说明 / 具体特点各为独立段落；STORY 的视频引子独立一段，视频经过和结果另起一段；WHY / FEELING 与 ENDING 各自独立。五个部分的标题上方保留明显空隙（比同部分的自然段间距更大）。共享 JS 复制时仍按 `<p>` 保留段落。适用于 Zoe 模板和全部 P01–P16 文章。

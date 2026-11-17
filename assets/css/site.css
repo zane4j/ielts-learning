@@ -172,9 +172,11 @@ mark{color:var(--color-text-strong);border-radius:2px;padding:0 2px;-webkit-box-
 .speaking-compact .heading-row p{font-size:.77rem;margin:.1rem 0 0}
 .speaking-compact .btn{padding:.33rem .65rem;min-height:2.15rem;font-size:.8rem}
 .speaking-compact .essay-card.speaking-answer{padding:.85rem 1.2rem}
-.speaking-compact .speaking-answer h3{font-size:.8rem;letter-spacing:.03em;margin:.8rem 0 .1rem}
+.speaking-compact .speaking-answer h3{font-size:.81rem;letter-spacing:.03em;margin:1.12rem 0 .32rem}
 .speaking-compact .speaking-answer h3:first-child{margin-top:0}
 .speaking-compact .speaking-answer p{font-size:1.03rem;line-height:1.73;max-width:75ch;margin:0 0 .6rem}
+.speaking-compact .speaking-answer p + p{margin-top:.26rem}
+.speaking-compact .speaking-answer h3 + p{margin-top:0}
 .speaking-compact .speaking-answer p:last-child{margin-bottom:0}
 .speaking-compact .keyword-list{columns:auto;display:flex;flex-wrap:wrap;gap:.35rem .45rem;list-style:none;margin:0;padding:0}
 .speaking-compact .keyword-list li{display:inline-flex;align-items:center;flex-wrap:wrap;gap:.2rem;max-width:100%;line-height:1.4;padding:.27rem .48rem;margin:0;background:var(--color-surface-soft);border:1px solid var(--color-border);border-radius:var(--radius-sm);font-size:.8rem}
@@ -192,7 +194,7 @@ mark{color:var(--color-text-strong);border-radius:2px;padding:0 2px;-webkit-box-
 .speaking-compact .back{margin-top:.8rem}
 .speaking-compact .foot{padding-top:.7rem}
 @media(max-width:700px){.speaking-compact .speaking-topic-grid{grid-template-columns:1fr}}
-@media(max-width:570px){.speaking-compact .site-main{padding:.7rem .8rem 1.8rem}.speaking-compact .hero{padding:.8rem .95rem}.speaking-compact .hero p{font-size:.87rem}.speaking-compact .mainnav{gap:.25rem}.speaking-compact .mainnav a{padding:.2rem .4rem;font-size:.76rem}.speaking-compact .essay-card.speaking-answer{padding:.75rem .85rem}.speaking-compact .speaking-answer p{font-size:1.01rem;line-height:1.72}.speaking-compact .speaking-answer h3{margin:.72rem 0 .1rem}.speaking-compact .keyword-list li{font-size:.77rem}}
+@media(max-width:570px){.speaking-compact .site-main{padding:.7rem .8rem 1.8rem}.speaking-compact .hero{padding:.8rem .95rem}.speaking-compact .hero p{font-size:.87rem}.speaking-compact .mainnav{gap:.25rem}.speaking-compact .mainnav a{padding:.2rem .4rem;font-size:.76rem}.speaking-compact .essay-card.speaking-answer{padding:.75rem .85rem}.speaking-compact .speaking-answer p{font-size:1.01rem;line-height:1.72}.speaking-compact .speaking-answer h3{margin:1rem 0 .28rem}.speaking-compact .keyword-list li{font-size:.77rem}}
 @media print{.speaking-compact .essay-card.speaking-answer{padding:.3rem 0}.speaking-compact .speaking-answer p{break-inside:avoid}}
 
 /* Mobile readability / 200% zoom reflow */
