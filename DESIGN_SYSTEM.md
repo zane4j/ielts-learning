@@ -58,7 +58,7 @@ Use `.compare-section`, `.compare-grid`, `.paper.original`, `.paper.revised`, `.
 
 - Every new page must have a path back to its directory and the site home.
 - Keep the home/directory indexes updated: `index.html` for the site, `writing/index.html`, `writing/task1/index.html`, as applicable.
-- Preserve Markdown navigation in `README.md`, `writing/README.md`, `writing/task1/README.md`.
+- Keep `README.md` as a **single stable link to the GitHub Pages HTML homepage** (`https://zane4j.github.io/ielts-learning/`). Maintain all directory navigation in HTML indexes only. Do not maintain parallel Markdown catalogs. Preserve existing Markdown study notes without deleting or migrating them unless specifically requested.
 - Use shared JS controls with `data-copy="id"`, `data-action="toggle-highlight"`, `data-action="toggle-size"`, `data-action="print"` rather than inline JS. Rich-copy attempts HTML + plain text but Feishu may still handle pasting differently.
 - Links must have readable labels, keyboard operation must work, and printing should preserve background highlighters where supported.
 
@@ -68,7 +68,7 @@ Use `.compare-section`, `.compare-grid`, `.paper.original`, `.paper.revised`, `.
 2. Read relevant existing pages and shared CSS before editing; preserve original user writing and existing links.
 3. Make semantic, minimal changes. Never copy/paste independent CSS into HTML or override styles per page.
 4. If a new component/token is genuinely necessary, update shared CSS, document it here, and update `design-system/index.html` with a visible example.
-5. When adding or removing content, update the correct directory index and relative Markdown navigations.
+5. When adding or removing content, update the correct **HTML directory index only** (and any relevant HTML back-navigation). Do not append or sync individual study entries into README or Markdown directory files.
 6. Run `node scripts/check-design.mjs` and address failures **before** committing.
 7. Confirm the site at https://zane4j.github.io/ielts-learning/ and test the relevant subpage navigation and mobile reading (manual check or browser test).
 8. If automatic validation reports failure, do not describe the page as fully compliant.
@@ -78,7 +78,7 @@ Use `.compare-section`, `.compare-grid`, `.paper.original`, `.paper.revised`, `.
 
 `scripts/check-design.mjs` is automatically run via GitHub Actions for every push and PR. It covers enforceable HTML structure, shared asset usage, relative asset validity, styling violations, and navigation files. It does **not** prove full WCAG compliance, visual quality, or correct reading flow. For stronger enforcement, repository admin should enable **branch protection/ruleset** on `main` requiring the design check to pass before merging (and restrict direct pushes). Without that rule, GitHub can report a failure but cannot block all pushes.
 
-**Note:** GitHub's native rendering of `.md` files uses GitHub's styles and cannot load this site's CSS. The design system applies to HTML pages served on GitHub Pages; Markdown notes should use consistent headings, tables and links.
+**Note:** GitHub's native rendering of `.md` files uses GitHub's styles and cannot load this site's CSS. The design system applies to HTML pages served on GitHub Pages. The existing Markdown study notes remain as historical/source resources; the HTML homepage and HTML indexes are the **only navigational source of truth**. The root README is just a pointer to the HTML homepage.
 
 ## References
 
