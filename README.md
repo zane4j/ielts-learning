@@ -15,6 +15,10 @@
 
 ## 口语 Speaking · Part 2
 
+### 五段式通用模板
+
+- [Part 2 最终通用模板与使用说明（INTRO / WHAT / STORY / WHY / FEELING / ENDING）](speaking/part2/FRAMEWORK.md)
+
 ### 共用故事与 Topic 适配
 
 - [S01 生产故障排查：母版 + E14／E12／E09／P01／P03 的最小修改](speaking/part2/stories/S01_Production_issue.md)
