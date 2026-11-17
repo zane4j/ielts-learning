@@ -6,7 +6,7 @@
 
 - [ ] Read AGENTS.md and DESIGN_SYSTEM.md
 - [ ] Shared site.css and site.js are referenced; no inline CSS/style or event handlers
-- [ ] Updated directory index, README links and back-navigation
+- [ ] Updated HTML directory index and HTML back-navigation; README remains a stable single homepage link
 - [ ] Task 1 reviews retain four comparison sections, yellow correction marks and five-color complete essays
 - [ ] Checked desktop, mobile, keyboard and zoom
 - [ ] Ran node scripts/check-design.mjs
