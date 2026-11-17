@@ -1,106 +1,81 @@
-# S01｜生产故障排查：共用故事与 5 题适配
+# S01｜生产故障排查：口语精简版
 
 [返回首页](../../../README.md) · [事件类题卡](../topics/events/README.md) · [人物类题卡](../topics/people/README.md)
 
-> 本页仅包含故事母版、替换句和替换后的故事，不包含完整回答的开头介绍或总结。Alex 是可替换的练习姓名；分工、对话及过程属于待你确认的练习设定，可按真实经历修改。
+> 仅故事部分，不是完整 Part 2 回答。Alex 为练习姓名，角色与过程可按真实经历调整。统一分工：你查日志、提供线索；Alex 定位并修复数据库查询；你们共同测试。此精简版省略第三位同事的次要细节。
 
-## 固定事实
+## 先记这条线索
 
-同事 Alex 负责服务并主导 SQL 修复；你协助检查日志、定位慢请求；另一位同事准备测试。五题都保留这一分工：你帮助他定位，他完成关键修复，团队共同验证。人物题讲 Alex，不换成 Zoe。
+**慢 → 帮 → 分 → 找 → 改 → 测 → 好**
+
+系统变慢 → 帮助同事 → 分工排查 → 找到线索 → 修改查询 → 测试发布 → 恢复正常。
+
+英文关键词：**slow → help → plan → spot → change → test → normal**。
 
 ## 故事母版
 
-One evening, an application at work became unusually slow, and users started reporting problems. My colleague Alex was responsible for the service, so he asked me to help him investigate. The difficult part was finding the cause quickly while keeping the service running. Alex made a short checklist and divided the work: I checked the logs, he examined the database, and another colleague prepared the tests. I noticed that one request was taking much longer than usual and shared the details with him. Using that information, Alex found a database query that was reading far more data than necessary. He improved the query, and we tested the change together before releasing it. After the update, the application responded much faster, and we continued monitoring it to make sure it stayed stable. We were all relieved that we had solved the problem without causing another one.
+One evening, our app suddenly became really slow. My colleague Alex was in charge, so I helped him look into it. He made a quick plan: I checked the logs, and he checked the database. I spotted a slow request, which helped him find the problem. A database query was doing too much work, so he changed it. We tested the fix together and then released it. The app was back to normal, and we all felt relieved.
 
-## 句子编号：便于只记修改处
+## 一句对应一个画面
 
-**S1** One evening, an application at work became unusually slow, and users started reporting problems.
+| 线索 | 句子 |
+| --- | --- |
+| S1 · 慢 | One evening, our app suddenly became really slow. |
+| S2 · 帮 | My colleague Alex was in charge, so I helped him look into it. |
+| S3 · 分 | He made a quick plan: I checked the logs, and he checked the database. |
+| S4 · 找 | I spotted a slow request, which helped him find the problem. |
+| S5 · 改 | A database query was doing too much work, so he changed it. |
+| S6 · 测 | We tested the fix together and then released it. |
+| S7 · 好 | The app was back to normal, and we all felt relieved. |
 
-**S2** My colleague Alex was responsible for the service, so he asked me to help him investigate.
+## 5 个 Topic：每题只替换一句
 
-**S3** The difficult part was finding the cause quickly while keeping the service running.
+其余六句不变。先熟悉母版，再记各题重点：**难题＝查原因；团队＝分工有效；帮助＝主动帮忙；成功的人＝顶住压力；有条理＝清单分工**。
 
-**S4** Alex made a short checklist and divided the work: I checked the logs, he examined the database, and another colleague prepared the tests.
+### E14｜遇到的技术难题
 
-**S5** I noticed that one request was taking much longer than usual and shared the details with him.
+**只替换 S2：** We didn't know what was causing the delay, so Alex and I checked things step by step.
 
-**S6** Using that information, Alex found a database query that was reading far more data than necessary.
+One evening, our app suddenly became really slow. **We didn't know what was causing the delay, so Alex and I checked things step by step.** He made a quick plan: I checked the logs, and he checked the database. I spotted a slow request, which helped him find the problem. A database query was doing too much work, so he changed it. We tested the fix together and then released it. The app was back to normal, and we all felt relieved.
 
-**S7** He improved the query, and we tested the change together before releasing it.
+---
 
-**S8** After the update, the application responded much faster, and we continued monitoring it to make sure it stayed stable.
+### E12｜团队合作经历
 
-**S9** We were all relieved that we had solved the problem without causing another one.
+**只替换 S7：** The app was back to normal, and sharing the work had helped us solve the problem faster.
 
-## 适配总览
+One evening, our app suddenly became really slow. My colleague Alex was in charge, so I helped him look into it. He made a quick plan: I checked the logs, and he checked the database. I spotted a slow request, which helped him find the problem. A database query was doing too much work, so he changed it. We tested the fix together and then released it. **The app was back to normal, and sharing the work had helped us solve the problem faster.**
 
-| Topic | 故事重点 | 修改句子 |
-| --- | --- | --- |
-| E14 遇到的技术难题 | 难在哪里，以及如何定位原因 | S3、S6 |
-| E12 团队合作经历 | 分工与合作带来的作用 | S4、S9 |
-| E09 帮助别人的一次经历 | 同事需要帮助，你提供了什么帮助 | S2、S5 |
-| P01 做成困难事情的人 | Alex 面对困难并成功完成修复 | S3、S7 |
-| P03 有条理的人 | Alex 用清单、分工和检查顺序管理工作 | S4、S7 |
+---
 
-每题只替换两句，其余七句保持原样。下方完整故事中的**粗体**是替换句，方便对照；不是需要额外朗读的标记。
+### E09｜帮助别人的一次经历
 
-## E14｜遇到的技术难题
+**只替换 S2：** Alex was stuck and looked worried, so I offered to check the logs for him.
 
-### 只改这两句
+One evening, our app suddenly became really slow. **Alex was stuck and looked worried, so I offered to check the logs for him.** He made a quick plan: I checked the logs, and he checked the database. I spotted a slow request, which helped him find the problem. A database query was doing too much work, so he changed it. We tested the fix together and then released it. The app was back to normal, and we all felt relieved.
 
-**S3 →** The difficult part was that several parts of the system could have caused the delay, so we had to check them one by one.
+---
 
-**S6 →** Using that information, Alex found a database query that was reading far more data than necessary, which explained the delay.
+### P01｜做成困难事情的人
 
-### 替换后的故事
+**只替换 S2：** Alex was under pressure to fix it quickly, but he stayed calm and asked me to help.
 
-One evening, an application at work became unusually slow, and users started reporting problems. My colleague Alex was responsible for the service, so he asked me to help him investigate. **The difficult part was that several parts of the system could have caused the delay, so we had to check them one by one.** Alex made a short checklist and divided the work: I checked the logs, he examined the database, and another colleague prepared the tests. I noticed that one request was taking much longer than usual and shared the details with him. **Using that information, Alex found a database query that was reading far more data than necessary, which explained the delay.** He improved the query, and we tested the change together before releasing it. After the update, the application responded much faster, and we continued monitoring it to make sure it stayed stable. We were all relieved that we had solved the problem without causing another one.
+One evening, our app suddenly became really slow. **Alex was under pressure to fix it quickly, but he stayed calm and asked me to help.** He made a quick plan: I checked the logs, and he checked the database. I spotted a slow request, which helped him find the problem. A database query was doing too much work, so he changed it. We tested the fix together and then released it. The app was back to normal, and we all felt relieved.
 
-## E12｜团队合作经历
+---
 
-### 只改这两句
+### P03｜有条理的人
 
-**S4 →** Alex divided the work according to our strengths: I checked the logs, he examined the database, and another colleague prepared the tests.
+**只替换 S3：** Alex made a checklist and gave us clear tasks: I checked the logs, and he checked the database.
 
-**S9 →** Working together saved us time because we could investigate different parts of the problem at the same time.
+One evening, our app suddenly became really slow. My colleague Alex was in charge, so I helped him look into it. **Alex made a checklist and gave us clear tasks: I checked the logs, and he checked the database.** I spotted a slow request, which helped him find the problem. A database query was doing too much work, so he changed it. We tested the fix together and then released it. The app was back to normal, and we all felt relieved.
 
-### 替换后的故事
+## 怎么背更轻松
 
-One evening, an application at work became unusually slow, and users started reporting problems. My colleague Alex was responsible for the service, so he asked me to help him investigate. The difficult part was finding the cause quickly while keeping the service running. **Alex divided the work according to our strengths: I checked the logs, he examined the database, and another colleague prepared the tests.** I noticed that one request was taking much longer than usual and shared the details with him. Using that information, Alex found a database query that was reading far more data than necessary. He improved the query, and we tested the change together before releasing it. After the update, the application responded much faster, and we continued monitoring it to make sure it stayed stable. **Working together saved us time because we could investigate different parts of the problem at the same time.**
+1. 先只看“慢、帮、分、找、改、测、好”，用中文复述整个过程。
+2. 再用英文关键词讲，每个关键词带出一句，不要求每次逐字相同。
+3. 母版熟悉后，每次抽一个 Topic，只换对应的一句。
 
-## E09｜帮助别人的一次经历
+保留自然短语：**look into it**（查一查原因）、**spotted a slow request**（发现一个慢请求）、**back to normal**（恢复正常）、**felt relieved**（松了口气）。不必进一步解释 SQL 或数据库内部原理。
 
-### 只改这两句
-
-**S2 →** My colleague Alex was responsible for the service, but he was struggling to find the cause, so I offered to help.
-
-**S5 →** I checked the logs, picked out the slow request, and explained what I had found so he could narrow down his search.
-
-### 替换后的故事
-
-One evening, an application at work became unusually slow, and users started reporting problems. **My colleague Alex was responsible for the service, but he was struggling to find the cause, so I offered to help.** The difficult part was finding the cause quickly while keeping the service running. Alex made a short checklist and divided the work: I checked the logs, he examined the database, and another colleague prepared the tests. **I checked the logs, picked out the slow request, and explained what I had found so he could narrow down his search.** Using that information, Alex found a database query that was reading far more data than necessary. He improved the query, and we tested the change together before releasing it. After the update, the application responded much faster, and we continued monitoring it to make sure it stayed stable. We were all relieved that we had solved the problem without causing another one.
-
-## P01｜做成困难事情的人
-
-### 只改这两句
-
-**S3 →** Alex was under a lot of pressure because he had to find the cause quickly while keeping the service running.
-
-**S7 →** Despite the pressure, he stayed calm, improved the query, and made sure we tested the change carefully before releasing it.
-
-### 替换后的故事
-
-One evening, an application at work became unusually slow, and users started reporting problems. My colleague Alex was responsible for the service, so he asked me to help him investigate. **Alex was under a lot of pressure because he had to find the cause quickly while keeping the service running.** Alex made a short checklist and divided the work: I checked the logs, he examined the database, and another colleague prepared the tests. I noticed that one request was taking much longer than usual and shared the details with him. Using that information, Alex found a database query that was reading far more data than necessary. **Despite the pressure, he stayed calm, improved the query, and made sure we tested the change carefully before releasing it.** After the update, the application responded much faster, and we continued monitoring it to make sure it stayed stable. We were all relieved that we had solved the problem without causing another one.
-
-## P03｜有条理的人
-
-### 只改这两句
-
-**S4 →** Alex made a clear checklist, gave each of us a task, and kept track of what we had checked: I handled the logs, he examined the database, and another colleague prepared the tests.
-
-**S7 →** He improved the query and followed his checklist, making sure we completed the tests before releasing the change.
-
-### 替换后的故事
-
-One evening, an application at work became unusually slow, and users started reporting problems. My colleague Alex was responsible for the service, so he asked me to help him investigate. The difficult part was finding the cause quickly while keeping the service running. **Alex made a clear checklist, gave each of us a task, and kept track of what we had checked: I handled the logs, he examined the database, and another colleague prepared the tests.** I noticed that one request was taking much longer than usual and shared the details with him. Using that information, Alex found a database query that was reading far more data than necessary. **He improved the query and followed his checklist, making sure we completed the tests before releasing the change.** After the update, the application responded much faster, and we continued monitoring it to make sure it stayed stable. We were all relieved that we had solved the problem without causing another one.
-
+本版缩短的是故事主体。完整回答仍需结合具体题卡补充人物／时间／地点和题目要求的原因、感受，不能把这段短故事直接当作整篇两分钟回答。
