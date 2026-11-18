@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       topic:
-        description: 'One topic ID, or all (25 topics; 2 paid TTS calls each)'
+        description: 'One topic ID, or all (25 topics; 1 paid TTS call each)'
         required: true
         default: P16
         type: string
@@ -31,16 +31,10 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install ffmpeg for bilingual MP3 merging
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq ffmpeg
-          ffmpeg -version | head -n 1
-
       - name: Validate all 25 topic extracts and filenames (free)
         run: python scripts/minimax_part2_tts.py --topic all --dry-run
 
-      - name: Generate Chinese title and English MP3 (MiniMax official API)
+      - name: Generate spoken English topic and answer (MiniMax official API)
         env:
           MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
           MINIMAX_API_BASE: ${{ vars.MINIMAX_API_BASE || 'https://api.minimaxi.com/v1' }}

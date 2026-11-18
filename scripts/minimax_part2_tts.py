@@ -1,17 +1,15 @@
 #!/usr/bin/env python3
-"""Read the 25 original IELTS Part 2 scripts and create Chinese-title + English MP3s.
+"""Generate IELTS Part 2 MP3 with spoken English question and English answer.
 
-Each topic: Chinese male voice says the title, short quiet gap, then the original
-English answer with English male voice. Never log the API key or the speech body.
+Keep Chinese only in the filename. Read the exact **Topic:** line and five
+original English paragraphs; do not read Cue Card, headings or Chinese notes.
+Never print API keys or full scripts in GitHub Actions logs.
 """
 import argparse
 import json
 import os
 import re
-import shutil
-import subprocess
 import sys
-import tempfile
 import time
 from pathlib import Path
 from urllib.error import HTTPError, URLError
@@ -21,6 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "speaking/part2/minimal-memory/ZOE_PHILIPPINES_25_TOPICS.md"
 OUTPUT = ROOT / "speaking/part2/audio"
 HEADING = re.compile(r"^## ([PLEO]\d{2}) — (.+)$", re.MULTILINE)
+ENGLISH_QUESTION = re.compile(r"^\*\*Topic:\*\*\s*(.+)$", re.MULTILINE)
 BODY = re.compile(
     r"### 1 — INTRO\n\n([\s\S]*?)\n\n"
     r"### 2 — WHAT\n\n([\s\S]*?)\n\n([\s\S]*?)\n\n"
@@ -33,7 +32,7 @@ CATEGORIES = {
     "O": "物品类",
     "L": "地点类",
 }
-# Spoken Chinese titles and file names follow the exact study labels.
+# Chinese titles are filename metadata ONLY and are never spoken.
 # P16 is number 01 among people per the requested example, not number 11.
 NAME_OVERRIDES = {"P16": "擅长学习语言的人"}
 
@@ -47,14 +46,21 @@ def load_topics():
     for index, heading in enumerate(headings):
         end = headings[index + 1].start() if index + 1 < len(headings) else len(markdown)
         topic_id, original_title = heading.group(1), heading.group(2).strip()
-        match = BODY.search(markdown[heading.start():end])
+        section = markdown[heading.start():end]
+        question_match = ENGLISH_QUESTION.search(section)
+        if not question_match:
+            raise ValueError(f"English **Topic:** not found for {topic_id}")
+        english_question = question_match.group(1).strip()
+        if not english_question.startswith("Describe "):
+            raise ValueError(f"Unexpected English question for {topic_id}")
+        match = BODY.search(section)
         if not match:
             raise ValueError(f"Cannot parse five English paragraphs for {topic_id}")
         paragraphs = [value.replace("**", "").strip() for value in match.groups()]
         if len(paragraphs) != 5 or not all(paragraphs):
             raise ValueError(f"Expected five paragraphs for {topic_id}")
         title = NAME_OVERRIDES.get(topic_id, original_title)
-        topics[topic_id] = {"title": title, "paragraphs": paragraphs}
+        topics[topic_id] = {"title": title, "english_question": english_question, "paragraphs": paragraphs}
 
     if len(topics) != 25:
         raise ValueError(f"Expected 25 topics, found {len(topics)}")
@@ -75,13 +81,18 @@ def load_topics():
     return topics
 
 
-def format_english(paragraphs, paragraph_pause=0.50):
-    # Keep the punctuation as written; do not insert mechanical pauses after
-    # every sentence. Only separate the five paragraphs.
-    return f" <#{paragraph_pause:.2f}#> ".join(paragraphs)
+def format_english(english_question, paragraphs, title_pause=0.70, paragraph_pause=0.50):
+    """Read the English Topic first, then the five unmodified English paragraphs.
+
+    Preserve natural punctuation: no fixed pause after every sentence.
+    """
+    if not english_question.endswith((".", "?", "!")):
+        english_question += "."
+    answer = f" <#{paragraph_pause:.2f}#> ".join(paragraphs)
+    return f"{english_question} <#{title_pause:.2f}#> {answer}"
 
 
-def call_minimax(text, api_key, base_url, model, voice, speed, language):
+def call_minimax(text, api_key, base_url, model, voice, speed):
     payload = {
         "model": model,
         "text": text,
@@ -98,7 +109,7 @@ def call_minimax(text, api_key, base_url, model, voice, speed, language):
             "bitrate": 128000,
             "channel": 1,
         },
-        "language_boost": language,
+        "language_boost": "English",
         "output_format": "hex",
     }
     request = Request(
@@ -142,31 +153,12 @@ def call_minimax(text, api_key, base_url, model, voice, speed, language):
     return audio
 
 
-def join_audio(chinese_mp3, english_mp3, destination):
-    """Join different voice clips with silence, using ffmpeg without shell calls."""
-    if not shutil.which("ffmpeg"):
-        raise RuntimeError("ffmpeg is required to combine Chinese and English speech")
-    command = [
-        "ffmpeg", "-hide_banner", "-loglevel", "error", "-y",
-        "-i", str(chinese_mp3),
-        "-i", str(english_mp3),
-        "-f", "lavfi", "-i", "anullsrc=r=32000:cl=mono:d=0.65",
-        "-filter_complex", "[0:a][2:a][1:a]concat=n=3:v=0:a=1[out]",
-        "-map", "[out]", "-ar", "32000", "-ac", "1",
-        "-c:a", "libmp3lame", "-b:a", "128k", str(destination),
-    ]
-    result = subprocess.run(command, capture_output=True, text=True, check=False)
-    if result.returncode != 0 or not destination.is_file() or destination.stat().st_size < 2048:
-        raise RuntimeError("ffmpeg failed to combine the Chinese title and English body")
-
-
 def main():
-    parser = argparse.ArgumentParser(description="MiniMax IELTS Part 2 bilingual MP3")
+    parser = argparse.ArgumentParser(description="MiniMax IELTS Part 2 English MP3")
     parser.add_argument("--topic", default="P16", help="P16, another topic ID, or all")
     parser.add_argument("--dry-run", action="store_true", help="Validate without any paid API call")
     parser.add_argument("--speed", type=float, default=0.85, help="English speed, 0.5-2.0")
     parser.add_argument("--voice", default="English_Trustworthy_Man")
-    parser.add_argument("--chinese-voice", default="male-qn-qingse")
     parser.add_argument("--model", default="speech-2.8-hd")
     args = parser.parse_args()
 
@@ -187,41 +179,28 @@ def main():
         ).strip()
         if not base_url.startswith("https://"):
             raise RuntimeError("MINIMAX_API_BASE must be HTTPS")
-        if not shutil.which("ffmpeg"):
-            raise RuntimeError("ffmpeg is unavailable; no paid requests were sent")
         OUTPUT.mkdir(parents=True, exist_ok=True)
 
     for topic_id in selected:
         item = topics[topic_id]
-        english = format_english(item["paragraphs"])
+        english = format_english(item["english_question"], item["paragraphs"])
         spoken = " ".join(item["paragraphs"])
         word_count = len(re.findall(r"[A-Za-z]+(?:'[A-Za-z]+)?", spoken))
-        print(f"{topic_id}: {word_count} words, output {item['file_name']}")
+        print(f"{topic_id}: {word_count} body words, output {item['file_name']}")
         if args.dry_run:
             continue
-        # One Chinese title request + one English body request. Both are billed
-        # by MiniMax; the workflow will not auto-retry failures.
-        with tempfile.TemporaryDirectory(prefix="ielts-minimax-") as folder:
-            folder = Path(folder)
-            title_audio = call_minimax(
-                item["title"] + "。", api_key, base_url, args.model,
-                args.chinese_voice, 1.0, "Chinese"
-            )
-            (folder / "title.mp3").write_bytes(title_audio)
-            body_audio = call_minimax(
-                english, api_key, base_url, args.model,
-                args.voice, args.speed, "English"
-            )
-            (folder / "body.mp3").write_bytes(body_audio)
-            staging = folder / "combined.mp3"
-            join_audio(folder / "title.mp3", folder / "body.mp3", staging)
-            destination = OUTPUT / item["file_name"]
-            shutil.copy2(staging, destination)
-            print(f"Generated {destination.relative_to(ROOT)} ({destination.stat().st_size} bytes)")
+        # Exactly ONE MiniMax paid request per topic; English only.
+        # Never retry automatically after an uncertain/failed request.
+        audio = call_minimax(english, api_key, base_url, args.model, args.voice, args.speed)
+        destination = OUTPUT / item["file_name"]
+        partial = destination.with_suffix(".mp3.part")
+        partial.write_bytes(audio)
+        partial.replace(destination)
+        print(f"Generated {destination.relative_to(ROOT)} ({destination.stat().st_size} bytes)")
         if len(selected) > 1:
             time.sleep(0.5)
 
-    print("DRY RUN PASSED" if args.dry_run else "BILINGUAL MP3 GENERATION COMPLETED")
+    print("DRY RUN PASSED" if args.dry_run else "ENGLISH MP3 GENERATION COMPLETED")
 
 
 if __name__ == "__main__":
