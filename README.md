@@ -24,10 +24,13 @@
 
 ## Writing Task 2 · 大作文
 
-- [Task 2 大作文完整手册（18 篇 Markdown）](writing/task2/README.md)
+- [Task 2 大作文完整手册与学习目录](writing/task2/README.md)
 - [Task 2 单文件合并版](writing/task2/IELTS_Task2_完整笔记_合并版.md)
 - [15 类话题、75 个观点](writing/task2/06_15类高频话题_75个观点.md)
 - [七类题型练习范文](writing/task2/README.md#完整范文)
+- **[七类题型四段式模板 + 逐类套用例子](writing/task2/10_七类题型_四段式模板与例子.md)**
+- **[Task 2 独立练习与删除线批改总目录](writing/task2/practice/README.md)**
+- [Cambridge 14 Academic · Test 1 · Task 2 双边讨论复盘（2026-11-18）](writing/task2/practice/2026-11-18_Cambridge14_Test1_Task2_Discussion_复盘.md)
 
 ## 仓库维护规则
 
