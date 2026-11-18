@@ -1,41 +1,45 @@
-# MiniMax 官方 API：雅思 Part 2 MP3
+# MiniMax 官方 API：雅思 Part 2 中英双语 MP3
 
 [返回最小记忆量研究](README.md) · [25 篇练习原稿](ZOE_PHILIPPINES_25_TOPICS.md) · [仓库首页](../../../README.md)
 
-## P16 试听
+## 当前规则（2026-11-18）
 
-- [GitHub Actions 工作流](../../../.github/workflows/generate-ielts-audio.yml)：在仓库顶部 Actions → Generate IELTS Part 2 MP3 (MiniMax) 中使用。
-- 工作流第一次提交时会自动触发一次 P16 Demo，产生一次 MiniMax API 按量收费；此后可点击 Run workflow 手动生成。
-- topic 默认 P16，也可输入其他题号，如 L08；输入 all 将生成全部 25 篇，产生 25 次单独计费请求。
-- 运行结束后进入当前 Actions 运行页面，底部 Artifacts 下载 ielts-part2-mp3-P16 ZIP，里面是 P16.mp3，保留 7 天。
-- 音频只上传 Actions Artifact，绝不提交 MP3 到代码仓库。25 篇原始 Markdown 不修改。
+- 开头先以普通话男声朗读中文主题，如“擅长学习语言的人。”，短暂停顿 0.65 秒，然后以英文男声朗读五段完整英文。
+- 英文音色：English_Trustworthy_Man，模型 speech-2.8-hd，speed=0.85（上一版为 0.78）。
+- 为改善机械感，不再在每个英文句号后额外插入 0.20 秒停顿，仅依靠标点自然停顿；五段之间额外停顿 0.50 秒（上一版 0.75 秒）。
+- 中文主题使用 MiniMax 官方中文男声音色 male-qn-qingse，speed=1.0；使用 ffmpeg 将两段 MP3 及短静音拼成一个文件。
+- 因中文和英文分别使用两个音色，每篇有 **2 次 MiniMax 按量计费调用**。预估费用按总输入字符计，不是原本单次调用。
+- GitHub Actions Artifact 提供 ZIP 下载，默认保留 7 天；不会把音频提交到仓库。
 
-## API Key 设置
+## 命名规则
 
-1. 仓库 Settings → Secrets and variables → Actions → Repository secrets 中创建 MINIMAX_API_KEY。
-2. 国内版默认 API Base 为 https://api.minimaxi.com/v1。
-3. 国际版 Key 在 Repository variables 中创建 MINIMAX_API_BASE，值为 https://api.minimax.io/v1。
-4. GitHub Secret 只在生成步骤注入，控制台不打印密钥，也不打印正文。
+- 文件名为 分类_两位序号_中文主题.mp3。
+- **明确指定 P16 为人物类第 01 篇**，因此 P16 的完整名称为 人物类_01_擅长学习语言的人.mp3。
+- 其余人物题从人物类_02 起，按原 25 题 Markdown 出现顺序编号；事件类、物品类、地点类各从 01 开始。
+- 中文题目大体沿用原 Markdown 的标题，P16 按指定用语由“擅长学语言的人”规范为“擅长学习语言的人”；只调整语音标题和文件名，不修改原文。
 
-## 默认语音参数
+## 运行与秘钥
 
-| 参数 | 值 |
-| --- | --- |
-| 模型 | speech-2.8-hd |
-| 语音 | English_Trustworthy_Man，英语男声（美式口音待试听确认） |
-| 语速 | 0.78 倍 |
-| 句间停顿 | 0.20 秒 |
-| 段落停顿 | 0.75 秒 |
-| 音频格式 | MP3 / 32 kHz / 128 kbps |
-| 输入 | 只提取五段英文正文，忽略标签、题卡与关键词 |
+1. 在 GitHub 仓库的 Settings → Secrets and variables → Actions → Repository secrets 中保存 MINIMAX_API_KEY。
+2. 国内版使用默认 https://api.minimaxi.com/v1；若 API Key 来自国际版，在 Repository variables 中保存 MINIMAX_API_BASE=https://api.minimax.io/v1。
+3. 进入仓库 Actions → Generate IELTS Part 2 MP3 (MiniMax) → Run workflow，填 P16 试听或 all 生成全部。
+4. 进入运行记录底部 Artifacts 下载 ielts-part2-mp3-P16，解压后得到对应的中文主题命名 MP3。
+5. 本次工作流更新的 push 触发器会自动生成一份 P16 测试音频；若进一步关闭此自动触发，以后只能手动运行，避免无意再次付费。
 
-## 检查和排错
+## 无需付费的测试
 
-- 不花钱验证提取：python scripts/minimax_part2_tts.py --topic P16 --dry-run
-- 如果缺少 MINIMAX_API_KEY，检查仓库 Secret 拼写。
-- HTTP 401/403：检查账户地区、密钥权限和余额；在国际版账户设置对应的 MINIMAX_API_BASE。
-- 出现 MiniMax API error code：查看具体的状态码，可能涉及音色或请求参数。
-- 不自动重试失败调用，避免重复扣费；如需再次尝试，在 Actions 中手动重新运行。
-- speed=0.78 是模型语速参数，不保证精确 110–125 WPM，需实际试听核验。
+```bash
+python scripts/minimax_part2_tts.py --topic all --dry-run
+```
+
+该命令检查 25 题正文解析和中文 MP3 文件名，不需要 API Key，不发起 TTS 请求。
+
+## 错误排查
+
+- HTTP 401/403：检查 Key、国家地区、余额与模型授权。
+- 中文标题朗读失败：核实 male-qn-qingse 音色与当前模型可用性；这时不会调用英文正文。
+- 英文正文朗读失败：中文标题请求可能已经计费，但不会自动重试。
+- ffmpeg 必须可用；预先验证其存在后才进行付费 API 请求。
+- 0.85 仅为 MiniMax speed 参数，不保证固定 WPM 或完美口音与自然度；请以实际试听为准。
 
 官方文档：https://platform.minimax.io/docs/api-reference/speech-t2a-http

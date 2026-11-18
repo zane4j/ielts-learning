@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
     inputs:
       topic:
-        description: "One ID (e.g. P16), or all (25 paid generations)"
+        description: 'One topic ID, or all (25 topics; 2 paid TTS calls each)'
         required: true
         default: P16
         type: string
-  # Initial push runs one P16 demo; later runs are manually triggered.
+  # Run one P16 demo automatically after this workflow update.
   push:
     branches: [main]
     paths:
@@ -36,16 +36,19 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Validate Markdown extraction without an API call
-        run: python scripts/minimax_part2_tts.py --topic "$TOPIC" --dry-run
+      - name: Verify ffmpeg is installed
+        run: command -v ffmpeg
 
-      - name: Generate MP3 via official MiniMax API
+      - name: Validate all 25 topic extracts and filenames (free)
+        run: python scripts/minimax_part2_tts.py --topic all --dry-run
+
+      - name: Generate Chinese title and English MP3 (MiniMax official API)
         env:
           MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
           MINIMAX_API_BASE: ${{ vars.MINIMAX_API_BASE || 'https://api.minimaxi.com/v1' }}
-        run: python scripts/minimax_part2_tts.py --topic "$TOPIC" --model speech-2.8-hd --voice English_Trustworthy_Man --speed 0.78
+        run: python scripts/minimax_part2_tts.py --topic "$TOPIC" --model speech-2.8-hd --voice English_Trustworthy_Man --speed 0.85
 
-      - name: Upload generated MP3 (not committed to GitHub)
+      - name: Upload MP3 artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
