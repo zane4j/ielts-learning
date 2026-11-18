@@ -2,6 +2,10 @@
 
 [返回首页](../README.md)
 
+## Part 2 · 最小化记忆量（独立研究）
+
+- [Zoe + 菲律宾英语学习计划 · 研究目录](part2/minimal-memory/README.md)：中国大陆 54 题矩阵与判定规则，不修改已定稿 Zoe 正文。
+
 ## Part 2 · 人物类最终稿
 
 - **[Zoe 人物模板与 24 个 Topic 完整回答](part2/people/IELTS_Part2_Zoe.md)**：三段式 INTRO → WHAT → WHY / HOW，两个核心故事、逐题完整答案与备考说明。
