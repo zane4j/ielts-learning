@@ -12,6 +12,7 @@
 | **[02 创造性 54 题覆盖矩阵 V0.2](COVERAGE_MATRIX.md)** | 允许替换主角、设置练习经历，逐题分析记忆成本 |
 | **[00 Zoe + 菲律宾完整 25 题（当前练习主稿）](ZOE_PHILIPPINES_25_TOPICS.md)** | 25 篇完整三段式、统一故事、5 行关键词 |
 | **[00a 25 篇整句复用率实测](FULL_ANSWER_REUSE_REPORT.md)** | 每篇词数、逐字相同句子占比与背诵策略 |
+| **[00b MiniMax 官方 API 语音生成](TTS_WORKFLOW.md)** | GitHub Actions 生成 P16 或全部 25 篇 MP3 |
 | **[03 创造性串题示例](CREATIVE_VARIANTS.md)** | P16/P01 完整三段式 + 6 题最小差异句 |
 | **[04 词汇与句子复用率分析](REUSE_ANALYSIS.md)** | 两篇完整稿实测、六题差异词量、统一母故事建议 |
 | [历史保守矩阵 V0.1](COVERAGE_MATRIX_V0.1.md) | 当时按既有事实严格评估的版本 |

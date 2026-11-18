@@ -1,0 +1,55 @@
+name: Generate IELTS Part 2 MP3 (MiniMax)
+
+on:
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: "One ID (e.g. P16), or all (25 paid generations)"
+        required: true
+        default: P16
+        type: string
+  # Initial push runs one P16 demo; later runs are manually triggered.
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/generate-ielts-audio.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: minimax-tts-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      TOPIC: ${{ github.event_name == 'push' && 'P16' || inputs.topic }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validate Markdown extraction without an API call
+        run: python scripts/minimax_part2_tts.py --topic "$TOPIC" --dry-run
+
+      - name: Generate MP3 via official MiniMax API
+        env:
+          MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
+          MINIMAX_API_BASE: ${{ vars.MINIMAX_API_BASE || 'https://api.minimaxi.com/v1' }}
+        run: python scripts/minimax_part2_tts.py --topic "$TOPIC" --model speech-2.8-hd --voice English_Trustworthy_Man --speed 0.78
+
+      - name: Upload generated MP3 (not committed to GitHub)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ielts-part2-mp3-${{ env.TOPIC }}
+          path: speaking/part2/audio/*.mp3
+          if-no-files-found: warn
+          retention-days: 7
