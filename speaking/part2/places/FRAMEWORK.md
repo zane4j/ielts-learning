@@ -8,57 +8,37 @@
 
 粗体只标可复用的引导语；具体内容保持普通字体。不要把框架单独连续背成一篇回答。
 
-## 共用框架
+## 共用框架（2026-11-18 确认定稿）
 
-### 1 — INTRO：对象与背景
+### 1 — INTRO
 
-**The first place that comes to mind is** [地点 + 城市 + 何时去过/多久去一次].
+**When I saw this topic, the first place that popped up in my mind was** [地点 + 城市 + 时间].
 
-[补一句：和谁去、为何去、如何知道这个地方。]
+建筑、旅程话题可将 place 替换为 building、journey。
 
-建筑题将 place 改为 building，短途题改为 journey。
+### 2 — WHAT
 
-### 2 — WHAT：扣题特点
+**Speaking of** [与题目相关的特征], **the most impressive thing about it is that** [具体特点与细节].
 
-**Speaking of** [what I like about it / why I found it boring / how crowded it was], [直接回答该题重点].
+负面或中性话题改为 **Speaking of** [负面特点], **what stood out to me was** [名词短语或 that 从句].
 
-正面特点：**The most impressive thing about it is that** [一个具体特点 + 可观察的细节].
+### 3 — STORY
 
-负面或中性特点：**What stood out to me was** [名词短语 / how + 完整句 / that + 完整句].
+**Speaking of my experience there,** [起因 → 行动 → 转折 → 结果].
 
-不必两句都用，避免重复。impressive 常有“令人赞赏”的意味，因此无聊、堵车等题目用 stood out 更贴切。
+描述过去经历主要使用一般过去时；journey 话题可根据语义使用 on that journey。
 
-### 3 — STORY：背景 → 事件 → 反应 → 结果
+### 4 — WHY / FEELINGS
 
-**I remember one time when** [具体场景].
+**When it comes to how I feel about it,** [感受 + 原因].
 
-[当时准备做什么。]
-[实际发生了什么：声音、动作、等待、意外等。]
-[你怎么想、怎么做。]
-[最终结果，以及与开始时的感受有什么不同。]
+当前感受主要使用一般现在时；如谈到过去的感受，可用过去时。
 
-可按故事改为 **I remember one afternoon when** / **I remember one moment when** / **I remember that afternoon clearly because**.
+### 5 — CONCLUSION
 
-示例：
-I asked my friend what he wanted to drink, but he thought I was asking whether he wanted to leave.
-We both laughed when we finally understood each other.
-Eventually, we took our food to a quieter spot nearby.
+**To conclude,** [最终评价 / 是否推荐 / 未来计划].
 
-### 4 — WHY / FEELINGS：意义与感受
-
-**Looking back,** [从这次经历得到的具体认识，或与平时的对比].
-
-**When it comes to how I feel about it,** [感受 + 原因，与题目直接相关].
-
-如果两句表达重复，只留一句。想更口语化时，可以直接说 **What I liked most was** / **What bothered me was**.
-
-### 5 — CONCLUSION：回应题目
-
-**To conclude,** [愿不愿再去 / 是否推荐 / 下次会怎样].
-
-也可以改成更轻松的 **So, overall,** [一句结尾].
-
-结尾只需一句。额外细节应放在故事或感受段，避免总结后再次展开长篇内容。
+五个固定引导句保持不变，不额外加入 Looking back 等固定句。正文记忆关键词用 <u>下划线</u>，每篇末尾保留五行精准记忆提示。
 
 ## 为什么原稿容易讲得太快
 
