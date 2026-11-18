@@ -34,6 +34,8 @@
 | Causes & Solutions | [06_Causes_Solutions_Traffic](07_完整范文/06_Causes_Solutions_Traffic.md) |
 | Two-Part Questions | [07_TwoPart_Gap_Year](07_完整范文/07_TwoPart_Gap_Year.md) |
 
+> **独立练习复盘固定要求（2026-11-18 起）**：每篇除原文、~~删除线语法纠错~~、四维评分、语言修正版及 Band 7.5 目标范文之外，**额外增加一篇目标 Band 7.0 的四段式模板套用全文**；模板可替换内容必须写成 **[填入的英文内容]**，保留 [ ] 符号，便于复习时分辨固定结构和灵活填充。详见 [练习目录的复盘规范](practice/README.md)。
+
 ## 独立练习记录
 
 - [2026-11-18 · Cambridge 14 Academic · Test 1 · Task 2：接受现状 vs 改善现状（双边讨论）](practice/2026-11-18_Cambridge14_Test1_Task2_Discussion_复盘.md) —— 真实原文、模拟四维评分、~~错误~~ → **修订**、逐段对照、Band 7.5 训练范文。
