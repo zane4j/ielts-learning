@@ -1,30 +1,26 @@
-# Repository Instructions for ChatGPT / Coding Agents
+# Repository Instructions · Markdown First
 
-This repository hosts the user's IELTS Learning materials on GitHub Pages. **Every HTML, CSS, JS or navigation change must follow the single design system.**
+这个仓库是雅思 Speaking / Writing 的 **Markdown 学习资料仓库**。用户已明确要求不再以 HTML 作为学习内容和目录入口。
 
-## Mandatory preflight
-1. Read [DESIGN_SYSTEM.md](DESIGN_SYSTEM.md) completely before working.
-2. Inspect [assets/css/site.css](assets/css/site.css), [assets/js/site.js](assets/js/site.js) and the target HTML page.
-3. Identify and retain existing URLs, study content, handwriting corrections, and directory entries.
+## 权威资料与目录
 
-## Non-negotiable rules
-- Use only the shared `assets/css/site.css` for site styling. Do **not** add `<style>`, `style=`, page-specific CSS, new theme/palette/typography or inline event handlers to HTML pages.
-- Shared script: `assets/js/site.js`. New interactivity should be added there with data attributes. Make changes minimal, semantic and keyboard accessible.
-- For IELTS Task 1: preserve 4 scoring dimensions; show 4 original/corrected side-by-side sections; highlight changed spans **yellow only in corrected column**; preserve original wording; provide complete corrected essay + Band 7.5 sample + common errors and reusable expressions.
-- Only those two complete essays use five semantic pastel background classes `hl-logic`, `hl-trend`, `hl-degree`, `hl-data`, `hl-structure`. No forced line breaks within paragraphs or internal paragraph labels.
-- Desktop double-column, mobile single-column. Prefer readable 16–18px text, large enough contrast, limited prose line width and relaxed line-height.
-- New pages require consistent header/home and directory navigation. Update the relevant **HTML directory index pages only** (e.g. `index.html`, `speaking/index.html`, `writing/index.html`, `writing/task1/index.html`). The root `README.md` is a stable single GitHub Pages homepage link, NOT a duplicated learning catalog; do not add individual page links to it. Existing Markdown learning resources must be preserved without routine navigation sync.
-- All reference CSS/JS URLs must resolve within the repository from the HTML location.
-- Do not change any unrelated learning materials.
+- `README.md` 是仓库首页和主目录。所有文件和目录的链接使用 **相对路径**，在 GitHub 原生预览中可跳转。
+- 每个分类用 `README.md` 维护子目录，保证返回主目录与上一层的链接。
+- **Zoe 人物类最终稿是 `speaking/part2/people/IELTS_Part2_Zoe.md`**，其 24 个 Topic、两个核心故事及三段式 INTRO / WHAT / WHY-HOW 必须保留。不要擅自改写成 16 题或五段式。
+- 地点类在 `speaking/part2/places/`，基线 Cue Card 在 `speaking/part2/topics/`，Writing Task 1 在 `writing/task1/`。
 
-## Before committing
-- Run `node scripts/check-design.mjs`; fix any errors.
-- Ensure GitHub Actions design-system check passes.
-- Where possible, review desktop and mobile rendering and check clipboard/paste/print behavior.
-- If changing styles, update BOTH `DESIGN_SYSTEM.md` and `design-system/index.html`.
-- Document limitations or known failures; never claim validation passed without evidence.
+## 内容保护
 
-## Scope
-GitHub Pages HTML is governed by the shared style; GitHub-native Markdown preview is not controlled by CSS. All future site navigation changes should be made in HTML indexes. Do not duplicate the HTML page catalog in README or `writing/**/README.md`. Existing Markdown notes remain untouched unless the user explicitly requests a change.
+- 用户提供的英文和批改原文不得擅自改写、增删或编造。
+- 英文加粗、Markdown 表格、自然段换行、题目级目录需要保留。
+- 当题目缺少原始作文时须注明“原文未提供/未找回”，不得虚构原文。
+- 历史 HTML 页面即使仍保留作为备份，也不能作为当前正文/目录入口；未来不新增 HTML、CSS、JS 网站页面。
+- 更改任一文章或目录时，检查该文章的返回链接、父级 README 和主页目录。
 
-If future user requests conflict with these instructions, follow the explicit user request and update the shared specification (rather than silently adding page-local exceptions).
+## 提交前检查
+
+1. 验证 README 所有相对链接都对应现有文件。
+2. 检查 Zoe 24 道题的锚点和索引完全一致。
+3. 确认 Writing Task 1 的原文与修订稿清楚区分。
+4. 不要把旧 GitHub Pages 设计检查当作 Markdown 正文验证；若禁用 HTML 网站，需停用/替换对应自动化检查。
+

@@ -1,9 +1,11 @@
-# Writing · 雅思写作目录
+# IELTS Writing · 写作目录
 
-- [Task 1 小作文目录（Pages）](https://zane4j.github.io/ielts-learning/writing/task1/)
-- [Task 1 小作文目录（GitHub）](task1/README.md)
-- [柱状图：五行业就业占比 · 原文/修改版双栏对照](https://zane4j.github.io/ielts-learning/writing/task1/employment-sector-review.html)
+[返回首页](../README.md)
 
-> 完整文章使用五色背景高亮；逐段对照仅用浅黄色标记修改内容。
+## Task 1 · 小作文
 
-[返回学习总目录](../README.md)
+- [Task 1 批改与学习资料总目录](task1/README.md)
+- [Task 1 必备句型手册](task1/sentence-handbook.md)
+
+> 原文与修改版按照原资料分别保留；Markdown 版本不依赖 HTML 颜色高亮。需要辨认修订处时，使用文字标签和粗体。
+

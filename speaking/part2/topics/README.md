@@ -1,10 +1,11 @@
 # IELTS Part 2｜中国大陆基线题目录
 
-[返回首页](../../../README.md) · [已有地点类完整文章](../places/README.md)
+[返回首页](../../../README.md) · [口语目录](../../README.md) · [Zoe 人物最终 24 题](../people/IELTS_Part2_Zoe.md) · [地点类完整文章](../places/README.md)
 
 | 分类 | 数量 | 目录 |
 | --- | ---: | --- |
-| 人物类 | 16 | [查看 Topic 与 cue card](people/README.md) |
+| 人物类基线题 | 16 | [Topic 与 Cue Card](people/README.md) |
+| **Zoe 最终口语稿** | **24** | [完整文章与故事](../people/README.md) |
 | 地点类 | 9 | [查看 Topic 与 cue card](places/README.md) |
 | 事件类 | 17 | [查看 Topic 与 cue card](events/README.md) |
 | 物品与抽象事物类 | 12 | [查看 Topic 与 cue card](objects/README.md) |

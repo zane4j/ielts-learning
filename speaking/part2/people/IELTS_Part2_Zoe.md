@@ -84,6 +84,8 @@ One video that left the deepest impression on me was about a time when she tried
 
 ---
 
+<a id="zoe-topic-01"></a>
+
 ## 01\. 2609 01\-1｜一见且想继续了解的人
 
 **Topic:** Describe a person you only met once recently and want to know more about
@@ -133,6 +135,8 @@ To conclude, Zoe has had a real impact on me\. **I would like to meet her again 
 **考前核实：** 需确实仅见过一次；与“发小”是互斥的关系版本。
 
 ---
+
+<a id="zoe-topic-02"></a>
 
 ## 02\. 2609 01\-2｜快乐人士
 
@@ -184,6 +188,8 @@ To conclude, Zoe has had a real impact on me\. **Her positive attitude reminds m
 
 ---
 
+<a id="zoe-topic-03"></a>
+
 ## 03\. 2609 01\-3｜尊敬的比你年长的人
 
 **Topic:** Describe someone who is older than you that you admire
@@ -233,6 +239,8 @@ To conclude, Zoe has had a real impact on me\. **I admire her maturity and deter
 **考前核实：** 前提：Zoe 确实比你年长；职业转换为练习设定。
 
 ---
+
+<a id="zoe-topic-04"></a>
 
 ## 04\. 2609 01\-4｜听不感兴趣的话
 
@@ -284,6 +292,8 @@ To conclude, Zoe has had a real impact on me\. **It taught me that a topic does 
 
 ---
 
+<a id="zoe-topic-05"></a>
+
 ## 05\. 2605 01\-1｜别人帮助解决问题
 
 **Topic:** Describe a time when a person did something to help you solve a problem
@@ -333,6 +343,8 @@ To conclude, Zoe has had a real impact on me\. **Her advice helped me make a mor
 **考前核实：** “帮助解决问题”需要具体互动；直播提问和答复均为练习设定。
 
 ---
+
+<a id="zoe-topic-06"></a>
 
 ## 06\. 2605 01\-2｜很久没收到回复的消息
 
@@ -384,6 +396,8 @@ To conclude, Zoe has had a real impact on me\. **The experience reminded me not 
 
 ---
 
+<a id="zoe-topic-07"></a>
+
 ## 07\. 2605 01\-3｜改变重要想法
 
 **Topic:** Describe a time when you changed an important opinion of yours
@@ -433,6 +447,8 @@ To conclude, Zoe has had a real impact on me\. **This change helped me become mo
 **考前核实：** 需强调“旧观点→触发→新观点”，不能只说被鼓励。
 
 ---
+
+<a id="zoe-topic-08"></a>
 
 ## 08\. 2609 02\-1｜本地名人
 
@@ -484,6 +500,8 @@ To conclude, Zoe has had a real impact on me\. **I think she is popular locally 
 
 ---
 
+<a id="zoe-topic-09"></a>
+
 ## 09\. 2609 02\-2｜受欢迎的人
 
 **Topic:** Describe a popular person
@@ -533,6 +551,8 @@ To conclude, Zoe has had a real impact on me\. **In my view, her popularity come
 **考前核实：** 主版本，基本复用现有 Zoe 故事；粉丝量按你原素材暂保留。
 
 ---
+
+<a id="zoe-topic-10"></a>
 
 ## 10\. 2609 02\-3｜做困难事情并成功的人
 
@@ -584,6 +604,8 @@ To conclude, Zoe has had a real impact on me\. **Her calm attitude and willingne
 
 ---
 
+<a id="zoe-topic-11"></a>
+
 ## 11\. 2609 02\-4｜钦佩的运动员
 
 **Topic:** Describe a successful sportsperson you admire
@@ -633,6 +655,8 @@ To conclude, Zoe has had a real impact on me\. **Her experience reminds me that 
 **考前核实：** 需给 Zoe 明确真实比赛成绩；“网红也打羽毛球”本身不足以证明是成功运动员。
 
 ---
+
+<a id="zoe-topic-12"></a>
 
 ## 12\. 2609 02\-5｜有条理的人
 
@@ -684,6 +708,8 @@ To conclude, Zoe has had a real impact on me\. **I admire how she turns complica
 
 ---
 
+<a id="zoe-topic-13"></a>
+
 ## 13\. 2609 02\-6｜喜欢拍照的人
 
 **Topic:** Describe a person you know who really likes taking photos
@@ -733,6 +759,8 @@ To conclude, Zoe has had a real impact on me\. **She has encouraged me to take m
 **考前核实：** 必须补充明确拍照片行为；拍视频不自动等于喜欢拍照。
 
 ---
+
+<a id="zoe-topic-14"></a>
 
 ## 14\. 2609 02\-7｜学习并喜欢历史的人
 
@@ -784,6 +812,8 @@ To conclude, Zoe has had a real impact on me\. **Her enthusiasm has made me more
 
 ---
 
+<a id="zoe-topic-15"></a>
+
 ## 15\. 2609 02\-8｜擅长做手工的人
 
 **Topic:** Describe a person who is good at making things by hand
@@ -833,6 +863,8 @@ To conclude, Zoe has had a real impact on me\. **Her DIY videos make me want to 
 **考前核实：** 新增例子：DIY 木质花盆；可与园艺题复用，属于练习设定。
 
 ---
+
+<a id="zoe-topic-16"></a>
 
 ## 16\. 2609 02\-9｜教你新技能的人
 
@@ -884,6 +916,8 @@ To conclude, Zoe has had a real impact on me\. **The skill is practical, and I s
 
 ---
 
+<a id="zoe-topic-17"></a>
+
 ## 17\. 2609 02\-10｜印象深刻的课程
 
 **Topic:** Describe a course that impressed you a lot
@@ -933,6 +967,8 @@ To conclude, Zoe has had a real impact on me\. **The course gave me confidence t
 **考前核实：** 课程是主角，Zoe 只是授课者；新增在线课程为练习设定。
 
 ---
+
+<a id="zoe-topic-18"></a>
 
 ## 18\. 2609 02\-11｜看过的名人采访
 
@@ -984,6 +1020,8 @@ To conclude, Zoe has had a real impact on me\. **The interview encouraged me to 
 
 ---
 
+<a id="zoe-topic-19"></a>
+
 ## 19\. 2609 02\-12｜有健康习惯和作息的人
 
 **Topic:** Describe a person you know who has healthy habits and a healthy daily routine
@@ -1033,6 +1071,8 @@ To conclude, Zoe has had a real impact on me\. **Her routine has encouraged me t
 **考前核实：** 健康习惯与视频内容为练习设定；确保不与“常熬夜赶工”人物设定冲突。
 
 ---
+
+<a id="zoe-topic-20"></a>
 
 ## 20\. 2605 02\-1｜发小
 
@@ -1084,6 +1124,8 @@ To conclude, Zoe has had a real impact on me\. **She reminds me of a simpler per
 
 ---
 
+<a id="zoe-topic-21"></a>
+
 ## 21\. 2605 02\-2｜拥有成功商业的人
 
 **Topic:** Describe a person you know who has a successful business
@@ -1133,6 +1175,8 @@ To conclude, Zoe has had a real impact on me\. **Her experience shows me that a 
 **考前核实：** 必须有实际经营主体与商业结果；百万粉丝不等于商业成功。
 
 ---
+
+<a id="zoe-topic-22"></a>
 
 ## 22\. 2605 02\-3｜在成功公司工作的人
 
@@ -1184,6 +1228,8 @@ To conclude, Zoe has had a real impact on me\. **I admire how she combines leade
 
 ---
 
+<a id="zoe-topic-23"></a>
+
 ## 23\. 2605 02\-4｜想从事医疗行业的人
 
 **Topic:** Describe a person you know who would like to choose a career in the medical field
@@ -1233,6 +1279,8 @@ To conclude, Zoe has had a real impact on me\. **I respect her decision because 
 **考前核实：** “未来想进入医疗行业”不等于已经获得执照；只写计划和学习，不编造现有职业资质。
 
 ---
+
+<a id="zoe-topic-24"></a>
 
 ## 24\. 2605 02\-5｜喜欢在家花园种植物的人
 
