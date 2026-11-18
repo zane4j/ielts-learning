@@ -64,7 +64,7 @@ One video that left the deepest impression on me was when Zoe shared stories abo
 
 ### 1 — INTRO
 
-When I saw this topic, the first person that popped up in my mind was Zoe, a content creator who managed to overcome a **difficult challenge**. Actually, she's really ambitious and self-disciplined, a go-getter.
+When I saw this topic, the first person that popped up in my mind was Zoe, a content creator. She managed to overcome a **difficult challenge**. Actually, she's really ambitious and self-disciplined, a go-getter.
 
 ### 2 — WHAT
 
@@ -102,7 +102,7 @@ To conclude, Zoe has had a real impact on me. Her experience encouraged me to ta
 
 ### 1 — INTRO
 
-When I saw this topic, the first person that popped up in my mind was Zoe, a content creator who always seems **cheerful** and full of energy. Actually, she's really ambitious and self-disciplined, a go-getter.
+When I saw this topic, the first person that popped up in my mind was Zoe, a content creator. She always seems **cheerful** and full of energy. Actually, she's really ambitious and self-disciplined, a go-getter.
 
 ### 2 — WHAT
 
@@ -140,7 +140,7 @@ To conclude, **Zoe has had a real impact on me**. Her experience encouraged me t
 
 ### 1 — INTRO
 
-When I saw this topic, the first person that popped up in my mind was Zoe, a content creator who is incredibly **organized**. Actually, she's really ambitious and self-disciplined, a go-getter.
+When I saw this topic, the first person that popped up in my mind was Zoe, a content creator. She is incredibly **organized**. Actually, she's really ambitious and self-disciplined, a go-getter.
 
 ### 2 — WHAT
 
@@ -178,7 +178,7 @@ To conclude, Zoe has had a real impact on me. Her experience encouraged me to ta
 
 ### 1 — INTRO
 
-When I saw this topic, the first person that popped up in my mind was Zoe, a content creator who really enjoys **taking photos**. Actually, she's really ambitious and self-disciplined, a go-getter.
+When I saw this topic, the first person that popped up in my mind was Zoe, a content creator. She really enjoys **taking photos**. Actually, she's really ambitious and self-disciplined, a go-getter.
 
 ### 2 — WHAT
 
@@ -216,7 +216,7 @@ To conclude, Zoe has had a real impact on me. Her experience encouraged me to ta
 
 ### 1 — INTRO
 
-When I saw this topic, the first person that popped up in my mind was Zoe, a content creator who is a few years **older than me** and whom I really admire. Actually, she's really ambitious and self-disciplined, a go-getter.
+When I saw this topic, the first person that popped up in my mind was Zoe, a content creator. She is a few years **older than me**, and I really admire her. Actually, she's really ambitious and self-disciplined, a go-getter.
 
 ### 2 — WHAT
 
@@ -254,7 +254,7 @@ To conclude, Zoe has had a real impact on me. Her experience encouraged me to ta
 
 ### 1 — INTRO
 
-When I saw this topic, the first person that popped up in my mind was Zoe, a content creator who loves learning about **history** when she travels. Actually, she's really ambitious and self-disciplined, a go-getter.
+When I saw this topic, the first person that popped up in my mind was Zoe, a content creator. She loves learning about **history** when she travels. Actually, she's really ambitious and self-disciplined, a go-getter.
 
 ### 2 — WHAT
 
@@ -292,7 +292,7 @@ To conclude, **Zoe has had a real impact on me**. Her experience encouraged me t
 
 ### 1 — INTRO
 
-When I saw this topic, the first person that popped up in my mind was Zoe, a content creator who **taught me** a useful way to practise English. Actually, she's really ambitious and self-disciplined, a go-getter.
+When I saw this topic, the first person that popped up in my mind was Zoe, a content creator. She **taught me** a useful way to practise English. Actually, she's really ambitious and self-disciplined, a go-getter.
 
 ### 2 — WHAT
 
@@ -330,7 +330,7 @@ To conclude, Zoe has had a real impact on me. Her experience encouraged me to ta
 
 ### 1 — INTRO
 
-When I saw this topic, the first person that popped up in my mind was Zoe, a content creator who is very **popular online**. Actually, she's really ambitious and self-disciplined, a go-getter.
+When I saw this topic, the first person that popped up in my mind was Zoe, a content creator. She is very **popular online**. Actually, she's really ambitious and self-disciplined, a go-getter.
 
 ### 2 — WHAT
 
@@ -368,7 +368,7 @@ To conclude, Zoe has had a real impact on me. Her experience encouraged me to ta
 
 ### 1 — INTRO
 
-When I saw this topic, the first person that popped up in my mind was Zoe, a content creator who has a **healthy** and disciplined daily routine. Actually, she's really ambitious and self-disciplined, a go-getter.
+When I saw this topic, the first person that popped up in my mind was Zoe, a content creator. She has a **healthy** and disciplined daily routine. Actually, she's really ambitious and self-disciplined, a go-getter.
 
 ### 2 — WHAT
 
@@ -406,7 +406,7 @@ To conclude, Zoe has had a real impact on me. Her experience encouraged me to ta
 
 ### 1 — INTRO
 
-When I saw this topic, the first person that popped up in my mind was Zoe, a content creator who runs a successful **online content business**. Actually, she's really ambitious and self-disciplined, a go-getter.
+When I saw this topic, the first person that popped up in my mind was Zoe, a content creator. She runs a successful **online content business**. Actually, she's really ambitious and self-disciplined, a go-getter.
 
 ### 2 — WHAT
 
@@ -444,7 +444,7 @@ To conclude, Zoe has had a real impact on me. Her experience encouraged me to ta
 
 ### 1 — INTRO
 
-When I saw this topic, the first person that popped up in my mind was Zoe, a content creator who is very good at **learning languages**. Actually, she's really ambitious and self-disciplined, a go-getter.
+When I saw this topic, the first person that popped up in my mind was Zoe, a content creator. She is very good at **learning languages**. Actually, she's really ambitious and self-disciplined, a go-getter.
 
 ### 2 — WHAT
 
@@ -482,11 +482,11 @@ To conclude, Zoe has had a real impact on me. Her experience encouraged me to ta
 
 ### 1 — INTRO
 
-When I saw this topic, the first decision that popped up in my mind was choosing to take a **short English course** in Cebu, the Philippines. It was one of the hardest choices I had made about my future.
+When I saw this topic, the first **decision** that popped up in my mind was choosing to invest more time and money in learning English. I made this decision while working as a backend engineer.
 
 ### 2 — WHAT
 
-Speaking of why I made that decision, I wanted to improve my spoken English and prepare for a job at an **international company**. It was difficult because I was worried about my income and whether the course would be worth the money.
+Speaking of how I made the decision, I compared the cost of a short language course with the possible career benefits. I talked to my family and made a **budget** because losing a stable income was my biggest concern.
 
 One video that left the deepest impression on me was when Zoe shared stories about her travels across different countries. At that time, I was considering quitting my job to go to the Philippines to study English, but I was afraid of losing my **stable income**. Her video encouraged me to take my plan more seriously and made me realise that I could step outside my comfort zone.
 
@@ -494,15 +494,15 @@ One video that left the deepest impression on me was when Zoe shared stories abo
 
 When it comes to the result, I decided to take a short course rather than suddenly quit my job. After a few weeks of regular practice, I felt **much more confident** speaking English, so I was pleased that I had taken action.
 
-To conclude, it taught me that a **careful decision** can still help me step outside my comfort zone. I would recommend starting with a realistic plan.
+To conclude, it was important because it changed the way I planned my career. I began treating English as an **investment** rather than just a school subject.
 
 **1 分钟准备：5 行关键词对应 5 段**
 
-1. **short English course**
-2. **international company**
+1. **decision**
+2. **budget**
 3. **stable income**
 4. **much more confident**
-5. **careful decision**
+5. **investment**
 
 **扣题核对：**决定、原因、过程困难、明确好结果；假设短期课程已实施。
 
