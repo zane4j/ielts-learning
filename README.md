@@ -22,6 +22,13 @@
 - [Task 1 小作文批改目录](writing/task1/README.md)
 - [Task 1 必备句型手册](writing/task1/sentence-handbook.md)
 
+## Writing Task 2 · 大作文
+
+- [Task 2 大作文完整手册（18 篇 Markdown）](writing/task2/README.md)
+- [Task 2 单文件合并版](writing/task2/IELTS_Task2_完整笔记_合并版.md)
+- [15 类话题、75 个观点](writing/task2/06_15类高频话题_75个观点.md)
+- [七类题型练习范文](writing/task2/README.md#完整范文)
+
 ## 仓库维护规则
 
 - **Markdown 是唯一的学习内容维护格式。** 新内容写入 `.md`，不再新增 HTML 页面。
