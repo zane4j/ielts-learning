@@ -1,7 +1,3 @@
-# cambridge20-test1-nyc-population
-
-IELTS Writing · Task 1 / Tables
-
 # 剑雅20 Test 1 · New York City 人口表格
 
 题目：三张表比较纽约市 1800、1900、2000 年的人口总数，以及曼哈顿与其他四区的人口数量和占比。

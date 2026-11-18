@@ -1,7 +1,3 @@
-# cambridge19-test1-social-centre
-
-IELTS Writing · Task 1 / Line graph
-
 # 剑雅19 Test 1 · Melbourne 社交中心活动人数
 
 题目：折线图比较澳大利亚墨尔本某社交中心在 2000–2020 年间五类活动（Film club、Martial arts、Amateur dramatics、Table tennis、Musical performances）的参加人数。

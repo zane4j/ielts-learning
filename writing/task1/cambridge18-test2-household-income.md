@@ -1,7 +1,3 @@
-# cambridge18-test2-household-income
-
-Academic Writing · Task 1 / Bar chart
-
 # 剑雅18 Test 2 · 美国家庭年收入
 
 题目：柱状图比较美国五个家庭年收入组在 2007、2011 和 2015 年的家庭数量（单位：百万户）。以下保留已核对的用户原文，右栏为面向 Band 6.5+ 的重新修订稿。
@@ -12,17 +8,17 @@ Academic Writing · Task 1 / Bar chart
 
 原文估分约 5.0–5.5；后续修订以 6.5+ 为训练目标，不是官方认证分数。
 
-- Original5.0–5.5
+- Original: 5.0–5.5
 
-- TA5.0
+- TA: 5.0
 
-- CC5.0
+- CC: 5.0
 
-- LR5.0
+- LR: 5.0
 
-- GRA5.0
+- GRA: 5.0
 
-- Revised6.5+*
+- Revised: 6.5+*
 
 *目标版需要通过实际考试评分验证；数值按练习图近似读取。
 

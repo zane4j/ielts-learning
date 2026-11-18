@@ -1,7 +1,3 @@
-# employment-sector-review
-
-IELTS Writing · Task 1 / Interactive Review
-
 # 原文 × Band 6.5+ 修正版 逐段双栏对照
 
 练习题：2000 年与 2020 年五大行业就业占比。左侧保留原稿，右侧只用浅黄色标记实际修改，底部附完整五色精读文章。
@@ -12,17 +8,17 @@ Practice 03 · Employment by Sector
 
 原文根据写作表现估分；修订稿 6.5+ 为训练目标，非官方认证分数。
 
-- Original5.5
+- Original: 5.5
 
-- Task Achievement6.0
+- Task Achievement: 6.0
 
-- Coherence5.0
+- Coherence: 5.0
 
-- Lexical Resource5.0
+- Lexical Resource: 5.0
 
-- Grammar5.0
+- Grammar: 5.0
 
-- Revised6.5+*
+- Revised: 6.5+*
 
 优先改进：逗号拼接句、词汇搭配、百分比与百分点的区别，以及 Overview 与 Body 的重复。
 

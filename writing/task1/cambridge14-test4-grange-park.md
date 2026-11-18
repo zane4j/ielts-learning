@@ -1,7 +1,3 @@
-# cambridge14-test4-grange-park
-
-Academic Writing · Task 1 / Maps
-
 # 剑雅14 Test 4 · Grange Park 地图改造
 
 题目：两个平面图展示 Grange Park 于 1920 年首次开放时的布局与现在的布局。重点比较保留、替换、新增和拆除的设施。原文核对状态：Introduction 和 Overview 已提交；Body 1 / Body 2 仅补充参考表达。

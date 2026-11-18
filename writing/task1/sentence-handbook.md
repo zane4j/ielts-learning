@@ -1,7 +1,3 @@
-# sentence-handbook
-
-IELTS Academic Writing · Task 1 / Sentence Handbook
-
 # 雅思小作文 · 必备句型与完整写作手册
 
 基于上传笔记的六个板块整理，增加 Overview 写法、数据表达纠错、分题型实例、模拟练习及参考答案。目标：稳定 6.5–7 分的准确表达。

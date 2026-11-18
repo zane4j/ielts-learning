@@ -1,7 +1,3 @@
-# practice-commuting-2000-2020
-
-IELTS Writing · Task 1 / Line graph
-
 # 模拟折线图 · 三种通勤方式占比
 
 题目：折线图展示某城市 2000–2020 年开车、公共交通与骑自行车通勤的人群占比。

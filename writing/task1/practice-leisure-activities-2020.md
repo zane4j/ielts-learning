@@ -1,7 +1,3 @@
-# practice-leisure-activities-2020
-
-IELTS Writing · Task 1 / Static bar chart
-
 # 模拟柱状图 · 男女休闲活动对比
 
 题目：柱状图比较 2020 年男性和女性成年人参与五种休闲活动的百分比（Reading、Sports、Cooking、Gaming、Gardening）。
