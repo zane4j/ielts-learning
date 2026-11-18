@@ -2,7 +2,7 @@
 
 [返回仓库首页](../../../README.md) · [返回地点类目录](README.md) · [查看原版固定模板](FRAMEWORK.md)
 
-> **版本说明**：9 篇文章集中在本页；地点类五段式框架及其固定英文引导语保持不变。正文是在原有题意和故事基础上的练习扩写，涉及未核实的细节应按个人真实经历调整。
+> **版本说明**：9 篇文章集中在本页；地点类五段式框架已按最新确认版本统一。正文是在原有题意和故事基础上的练习扩写，涉及未核实的细节应按个人真实经历调整。
 >
 > **格式说明**：**粗体** = 固定模板；<u>下划线</u> = 记忆触发词（与 5 行关键词逐字对应）。GitHub 原生 Markdown 不支持可靠的背景色高亮，使用 `<u>` 标签。
 >
@@ -35,13 +35,13 @@
 
 **Topic:** A noisy place（嘈杂的地方）
 
-**The first place that comes to mind is** a <u>night market in Shenzhen</u> that I visited <u>with a friend last month</u>. 
+**When I saw this topic, the first place that popped up in my mind was** a <u>night market in Shenzhen</u> that I visited <u>with a friend last month</u>. 
 
-**Speaking of what made it so noisy,** there were <u>food stalls on both sides</u> of a narrow street. **What stood out to me was** the mixture of <u>loud music</u>, sellers calling out to customers, and people chatting. Even standing right beside my friend, I <u>couldn't always hear</u> what he was saying. 
+**Speaking of** what made it so noisy, there were <u>food stalls on both sides</u> of a narrow street. **what stood out to me was** the mixture of <u>loud music</u>, sellers calling out to customers, and people chatting. Even standing right beside my friend, I <u>couldn't always hear</u> what he was saying. 
 
-**I remember one time when** we were waiting for our food on a <u>Saturday evening</u>. The street was lined with food stalls, and the smell of grilled meat was everywhere. At first, we were excited because there were so many snacks to try. I asked my friend what he <u>wanted to drink</u>, but he thought I was asking whether he wanted to leave. After a while, though, it became difficult to enjoy ourselves. We had to <u>repeat almost everything</u> we said, and even ordering food was tiring. We eventually took our food to <u>a quieter spot nearby</u>, where we could finally have a proper conversation.
+**Speaking of** my experience there, we were waiting for our food on a <u>Saturday evening</u>. The street was lined with food stalls, and the smell of grilled meat was everywhere. At first, we were excited because there were so many snacks to try. I asked my friend what he <u>wanted to drink</u>, but he thought I was asking whether he wanted to leave. After a while, though, it became difficult to enjoy ourselves. We had to <u>repeat almost everything</u> we said, and even ordering food was tiring. We eventually took our food to <u>a quieter spot nearby</u>, where we could finally have a proper conversation.
 
-**Looking back,** I enjoyed the food more once we had moved away from the busiest area. The experience made me realize that the <u>atmosphere matters</u> just as much as the food. **When it comes to how I feel about it,** I like a lively market, but I <u>don't want to shout</u> throughout a meal.
+I enjoyed the food more once we had moved away from the busiest area. The experience made me realize that the <u>atmosphere matters</u> just as much as the food. **When it comes to how I feel about it,** I like a lively market, but I <u>don't want to shout</u> throughout a meal.
 
 **To conclude,** I'd go back <u>earlier in the evening</u>, before it gets too busy. I would still <u>recommend the food</u>, just not the noise.
 
@@ -61,13 +61,13 @@
 
 **Topic:** A natural place in a city（城市里的自然之地）
 
-**The first place that comes to mind is** a <u>public park in Shenzhen</u> that I visit about <u>twice a month</u>. I usually go on my own, especially when I need some time away from work.
+**When I saw this topic, the first place that popped up in my mind was** a <u>public park in Shenzhen</u> that I visit about <u>twice a month</u>. I usually go on my own, especially when I need some time away from work.
 
-**Speaking of what I like about it,** the <u>peaceful atmosphere</u> is the main attraction. **The most impressive thing about it is that** there are plenty of <u>trees and shaded paths</u>, even though busy roads surround the park. Once I'm inside, the city feels much farther away. 
+**Speaking of** what I like about it, the <u>peaceful atmosphere</u> is the main attraction. **the most impressive thing about it is that** there are plenty of <u>trees and shaded paths</u>, even though busy roads surround the park. Once I'm inside, the city feels much farther away. 
 
-**I remember one time when** I went there after a <u>stressful week at work</u>. I had spent the whole week staring at a screen, so I really needed a change of scenery. At first, I kept <u>reaching for my phone</u> out of habit. Then I <u>put it in my bag</u> and started paying attention to what was around me. I walked slowly along a shaded path and found a bench where I could <u>hear birds singing</u>. When I finally got up to leave, I <u>felt much lighter</u> than I had that morning.
+**Speaking of** my experience there, I went there after a <u>stressful week at work</u>. I had spent the whole week staring at a screen, so I really needed a change of scenery. At first, I kept <u>reaching for my phone</u> out of habit. Then I <u>put it in my bag</u> and started paying attention to what was around me. I walked slowly along a shaded path and found a bench where I could <u>hear birds singing</u>. When I finally got up to leave, I <u>felt much lighter</u> than I had that morning.
 
-**Looking back,** that simple visit helped me <u>relax more</u> than spending another afternoon scrolling on my phone. **When it comes to how I feel about it,** the park gives me a welcome <u>break from screens</u> without having to travel far.
+that simple visit helped me <u>relax more</u> than spending another afternoon scrolling on my phone. **When it comes to how I feel about it,** the park gives me a welcome <u>break from screens</u> without having to travel far.
 
 **To conclude,** I'd like to keep visiting whenever I need some <u>fresh air</u> and a quieter afternoon. For me, it's a <u>small escape from city life</u>.
 
@@ -87,13 +87,13 @@
 
 **Topic:** A crowded place（拥挤的地方）
 
-**The first place that comes to mind is** a busy <u>night market in Shenzhen</u> that I visited with a friend on a <u>Saturday evening</u>. We wanted to try a few different snacks, and we'd expected the visit to be fairly relaxed. 
+**When I saw this topic, the first place that popped up in my mind was** a busy <u>night market in Shenzhen</u> that I visited with a friend on a <u>Saturday evening</u>. We wanted to try a few different snacks, and we'd expected the visit to be fairly relaxed. 
 
-**Speaking of how crowded it was,** the walkway between the food stalls was quite narrow. **What stood out to me was** that almost every popular stall had <u>a long line</u>. There was <u>barely enough room</u> for two people to walk side by side.
+**Speaking of** how crowded it was, the walkway between the food stalls was quite narrow. **what stood out to me was** that almost every popular stall had <u>a long line</u>. There was <u>barely enough room</u> for two people to walk side by side.
 
-**I remember one moment when** we could only move forward <u>a few steps at a time</u>. The street was lined with food stalls, and the smell of grilled meat was everywhere. At first, we were excited because there were so many snacks to try. My friend spotted a stall ahead and walked toward it, but a group of people moved between us. I <u>couldn't see him</u> at all. I called him and suggested <u>meeting beside a sign</u> near the entrance. After we found each other, we decided to buy just a couple of snacks instead of trying everything we'd planned. After a while, though, it became difficult to enjoy ourselves. We eventually took our food to <u>a quieter spot nearby</u>, where we could stand without being pushed around.
+**Speaking of** my experience there, we could only move forward <u>a few steps at a time</u>. The street was lined with food stalls, and the smell of grilled meat was everywhere. At first, we were excited because there were so many snacks to try. My friend spotted a stall ahead and walked toward it, but a group of people moved between us. I <u>couldn't see him</u> at all. I called him and suggested <u>meeting beside a sign</u> near the entrance. After we found each other, we decided to buy just a couple of snacks instead of trying everything we'd planned. After a while, though, it became difficult to enjoy ourselves. We eventually took our food to <u>a quieter spot nearby</u>, where we could stand without being pushed around.
 
-**Looking back,** choosing a Saturday evening was probably our biggest mistake. The food itself was enjoyable, but we spent <u>more time waiting than eating</u>. **When it comes to how I feel about it,** I understand why the market is popular, but I prefer <u>having more space</u>.
+choosing a Saturday evening was probably our biggest mistake. The food itself was enjoyable, but we spent <u>more time waiting than eating</u>. **When it comes to how I feel about it,** I understand why the market is popular, but I prefer <u>having more space</u>.
 
 **To conclude,** I'd choose a <u>weekday evening</u> next time so I could explore <u>at my own pace</u>. 
 
@@ -113,13 +113,13 @@
 
 **Topic:** A short journey you often make but dislike（不喜欢的短途行程）
 
-**The first journey that comes to mind is** my regular <u>bus trip to a sports center</u> in central Shenzhen. I make this journey <u>almost every week</u> because I play badminton there with my friends. 
+**When I saw this topic, the first journey that popped up in my mind was** my regular <u>bus trip to a sports center</u> in central Shenzhen. I make this journey <u>almost every week</u> because I play badminton there with my friends. 
 
-**Speaking of why I dislike it,** the main problem is the <u>unpredictable traffic</u>. **What stood out to me was** how a journey that should take twenty minutes could sometimes take <u>twice as long</u>. 
+**Speaking of** why I dislike it, the main problem is the <u>unpredictable traffic</u>. **what stood out to me was** how a journey that should take twenty minutes could sometimes take <u>twice as long</u>. 
 
-**I remember one time when** we had <u>booked a court</u> for a Saturday afternoon. I left home thinking I had plenty of time, but the bus soon <u>got stuck in traffic</u>. I kept <u>checking the time</u> and sending messages to my friends. I tried to make the best of the extra time by listening to an English podcast, but I couldn't really concentrate. By the time I arrived, I'd already <u>missed part of our booking</u>. I was stressed before we'd even started playing.
+**Speaking of** my experience there, we had <u>booked a court</u> for a Saturday afternoon. I left home thinking I had plenty of time, but the bus soon <u>got stuck in traffic</u>. I kept <u>checking the time</u> and sending messages to my friends. I tried to make the best of the extra time by listening to an English podcast, but I couldn't really concentrate. By the time I arrived, I'd already <u>missed part of our booking</u>. I was stressed before we'd even started playing.
 
-**Looking back,** I should have <u>allowed more time</u>, although it's frustrating to leave very early for such a short trip. **When it comes to how I feel about it,** I enjoy the badminton but dislike the <u>uncertainty of getting there</u>. 
+I should have <u>allowed more time</u>, although it's frustrating to leave very early for such a short trip. **When it comes to how I feel about it,** I enjoy the badminton but dislike the <u>uncertainty of getting there</u>. 
 
 **To conclude,** I'd prefer <u>a more reliable route</u>, even if it involved a little more walking. At least then I could <u>plan my afternoon</u> properly.
 
@@ -139,13 +139,13 @@
 
 **Topic:** A public building you like visiting（喜欢的公共建筑）
 
-**The first place that comes to mind is** a <u>public library in Shenzhen</u> that a friend recommended to me. I started visiting because I wanted somewhere quiet to read and <u>study English on weekends</u>. 
+**When I saw this topic, the first place that popped up in my mind was** a <u>public library in Shenzhen</u> that a friend recommended to me. I started visiting because I wanted somewhere quiet to read and <u>study English on weekends</u>. 
 
-**Speaking of what I like about it,** the reading area is comfortable and well lit. **The most impressive thing about it is that** it has <u>large windows</u> and <u>plenty of seats</u>, so I can concentrate without having to buy a drink or order food. 
+**Speaking of** what I like about it, the reading area is comfortable and well lit. **the most impressive thing about it is that** it has <u>large windows</u> and <u>plenty of seats</u>, so I can concentrate without having to buy a drink or order food. 
 
-**I remember one time when** my <u>apartment was noisy</u> and I couldn't focus on an English book. I had spent the whole week staring at a screen, so I really needed a <u>change of scenery</u>. At first, I kept reaching for my phone out of habit. Then I <u>put it in my bag</u> and started paying attention to the book in front of me. After about an hour, I'd <u>finished a section</u> that I'd been putting off. That gave me <u>a real sense of progress</u>.
+**Speaking of** my experience there, my <u>apartment was noisy</u> and I couldn't focus on an English book. I had spent the whole week staring at a screen, so I really needed a <u>change of scenery</u>. At first, I kept reaching for my phone out of habit. Then I <u>put it in my bag</u> and started paying attention to the book in front of me. After about an hour, I'd <u>finished a section</u> that I'd been putting off. That gave me <u>a real sense of progress</u>.
 
-**Looking back,** seeing other people quietly reading helped me <u>stay focused</u>. **When it comes to how I feel about it,** the library gives me a welcome <u>break from screens</u> and a clear separation between studying and resting at home.
+seeing other people quietly reading helped me <u>stay focused</u>. **When it comes to how I feel about it,** the library gives me a welcome <u>break from screens</u> and a clear separation between studying and resting at home.
 
 **To conclude,** I plan to visit more often to read and <u>review my English notes</u>. It's a place where I can slow down and <u>get something useful done</u>.
 
@@ -165,13 +165,13 @@
 
 **Topic:** A tall building you like（喜欢的高楼）
 
-**The first building that comes to mind is** a <u>tall office building</u> I noticed in <u>central Shenzhen last month</u>. I don't actually know its name, but I remember its appearance clearly because it caught my attention straight away. 
+**When I saw this topic, the first building that popped up in my mind was** a <u>tall office building</u> I noticed in <u>central Shenzhen last month</u>. I don't actually know its name, but I remember its appearance clearly because it caught my attention straight away. 
 
-**Speaking of what I like about it,** it has a simple shape rather than lots of decoration. **The most impressive thing about it is that** its <u>glass walls reflect the sky</u> and nearby buildings, so it seems to change depending on where you're standing. <u>details</u> are much more interesting up close.
+**Speaking of** what I like about it, it has a simple shape rather than lots of decoration. **the most impressive thing about it is that** its <u>glass walls reflect the sky</u> and nearby buildings, so it seems to change depending on where you're standing. <u>details</u> are much more interesting up close.
 
-**I remember one time when** I was waiting outside for a friend on a <u>sunny afternoon</u>. I had a few minutes to spare, so I <u>looked up</u> instead of checking my phone. The sunlight was reflected in the glass, and the upper part of the building looked much brighter than the bottom. I took a few <u>photos from different angles</u> and showed them to my friend when he arrived. Instead of rushing off, I <u>stayed a little longer</u> to look at the building from across the road. 
+**Speaking of** my experience there, I was waiting outside for a friend on a <u>sunny afternoon</u>. I had a few minutes to spare, so I <u>looked up</u> instead of checking my phone. The sunlight was reflected in the glass, and the upper part of the building looked much brighter than the bottom. I took a few <u>photos from different angles</u> and showed them to my friend when he arrived. Instead of rushing off, I <u>stayed a little longer</u> to look at the building from across the road. 
 
-**Looking back,** that experience made an <u>ordinary afternoon more memorable</u>. **When it comes to how I feel about it,** I like the way it fits into Shenzhen's <u>modern city view</u>, although I've only seen it from outside.
+that experience made an <u>ordinary afternoon more memorable</u>. **When it comes to how I feel about it,** I like the way it fits into Shenzhen's <u>modern city view</u>, although I've only seen it from outside.
 
 **To conclude,** I'd enjoy seeing it again <u>in the evening</u> to compare how it looks under different lighting. I think it would be worth <u>another visit</u>.
 
@@ -191,13 +191,13 @@
 
 **Topic:** A place you found boring（去过的无聊地方）
 
-**The first place that comes to mind is** a <u>shopping mall in Shenzhen</u> where I waited for a friend last month. We'd arranged to meet there before dinner, but he was <u>delayed by nearly an hour</u>. 
+**When I saw this topic, the first place that popped up in my mind was** a <u>shopping mall in Shenzhen</u> where I waited for a friend last month. We'd arranged to meet there before dinner, but he was <u>delayed by nearly an hour</u>. 
 
-**Speaking of why I found it boring,** there was very little that matched my interests. **What stood out to me was** that many of the shops seemed to sell <u>similar clothes and accessories</u>. I <u>wasn't planning to buy anything</u>, so there wasn't much to keep me interested. 
+**Speaking of** why I found it boring, there was very little that matched my interests. **what stood out to me was** that many of the shops seemed to sell <u>similar clothes and accessories</u>. I <u>wasn't planning to buy anything</u>, so there wasn't much to keep me interested. 
 
-**I remember that afternoon clearly because** I tried to make the best of the <u>extra time</u>. After a while, I realized I was passing the <u>same kinds of stores</u> again. I kept <u>checking the time</u> and was surprised that only about fifteen minutes had gone by. Eventually, I <u>found somewhere to sit</u> and started looking at my phone. When my <u>friend finally arrived</u>, I was relieved. We left straight away and found a small restaurant nearby, which turned out to be the best part of the evening.
+**Speaking of** my experience there, I tried to make the best of the <u>extra time</u>. After a while, I realized I was passing the <u>same kinds of stores</u> again. I kept <u>checking the time</u> and was surprised that only about fifteen minutes had gone by. Eventually, I <u>found somewhere to sit</u> and started looking at my phone. When my <u>friend finally arrived</u>, I was relieved. We left straight away and found a small restaurant nearby, which turned out to be the best part of the evening.
 
-**Looking back,** the mall wasn't necessarily a bad place. **When it comes to how I feel about it,** I disliked the feeling that I was <u>wasting a free afternoon</u> and had <u>nothing interesting to do</u>.
+the mall wasn't necessarily a bad place. **When it comes to how I feel about it,** I disliked the feeling that I was <u>wasting a free afternoon</u> and had <u>nothing interesting to do</u>.
 
 **To conclude,** next time I'd <u>bring a book</u> or arrange to meet somewhere that <u>suits my interests better</u>. I wouldn't choose that mall just to pass the time.
 
@@ -217,13 +217,13 @@
 
 **Topic:** A place you would recommend visiting（推荐的旅行地点）
 
-**The first place that comes to mind is** <u>Samarkand</u>, a city I visited during my trip to <u>Uzbekistan in October</u>. 
+**When I saw this topic, the first place that popped up in my mind was** <u>Samarkand</u>, a city I visited during my trip to <u>Uzbekistan in October</u>. 
 
-**Speaking of why I'd recommend it,** the architecture is the main attraction for me. **The most impressive thing about it is that** the historic buildings around <u>Registan Square</u> have <u>beautiful blue tiles</u> and detailed patterns. From a distance the buildings look impressive, but the details are much more interesting up close. 
+**Speaking of** why I'd recommend it, the architecture is the main attraction for me. **the most impressive thing about it is that** the historic buildings around <u>Registan Square</u> have <u>beautiful blue tiles</u> and detailed patterns. From a distance the buildings look impressive, but the details are much more interesting up close. 
 
-**I remember one afternoon when** I spent time <u>walking around the square</u> and taking photos. I had a few minutes to spare, so I <u>looked up</u> instead of checking my phone. Then I put my phone down and started looking more closely at the patterns. I took a few <u>photos from different angles</u>, but the pictures couldn't really capture the scale of the buildings. Instead of rushing off, I <u>stayed a little longer</u> and simply enjoyed being there. 
+**Speaking of** my experience there, I spent time <u>walking around the square</u> and taking photos. I had a few minutes to spare, so I <u>looked up</u> instead of checking my phone. Then I put my phone down and started looking more closely at the patterns. I took a few <u>photos from different angles</u>, but the pictures couldn't really capture the scale of the buildings. Instead of rushing off, I <u>stayed a little longer</u> and simply enjoyed being there. 
 
-**Looking back,** I'm glad I didn't treat it as just another place to take a quick photo. That <u>slower pace</u> made the visit much more memorable. **When it comes to how I feel about it,** I enjoyed seeing somewhere so different from the cities I'm familiar with, especially the mix of <u>history and architecture</u>.
+I'm glad I didn't treat it as just another place to take a quick photo. That <u>slower pace</u> made the visit much more memorable. **When it comes to how I feel about it,** I enjoyed seeing somewhere so different from the cities I'm familiar with, especially the mix of <u>history and architecture</u>.
 
 **To conclude,** I'd recommend <u>visiting in person</u> and taking your time. It's a place where the <u>small details</u> really deserve your attention.
 
@@ -243,13 +243,13 @@
 
 **Topic:** A home you enjoy visiting but would not live in（喜欢拜访但不想住的家）
 
-**The first place that comes to mind is** a relative's house in my <u>hometown, Shanwei</u>. I visit it on some of my trips home, and it's a place where I <u>always feel welcome</u>. 
+**When I saw this topic, the first place that popped up in my mind was** a relative's house in my <u>hometown, Shanwei</u>. I visit it on some of my trips home, and it's a place where I <u>always feel welcome</u>. 
 
-**Speaking of why I enjoy visiting,** the <u>relaxed family atmosphere</u> means a lot to me. **The most impressive thing about it is that** there's enough space for everyone to <u>sit together comfortably</u>. 
+**Speaking of** why I enjoy visiting, the <u>relaxed family atmosphere</u> means a lot to me. **the most impressive thing about it is that** there's enough space for everyone to <u>sit together comfortably</u>. 
 
-**I remember one time when** I visited with the intention of staying for only a short while. We sat down, shared some snacks, and started <u>catching up on family news</u>. One story reminded us of something funny from the past, and soon everyone was laughing and adding their own memories. At first, I kept reaching for my phone out of habit. Then I <u>put it in my bag</u> and started paying attention to the conversation. Before I knew it, I'd stayed <u>much longer than planned</u>. <u>visit feel worthwhile</u>.
+**Speaking of** my experience there, I visited with the intention of staying for only a short while. We sat down, shared some snacks, and started <u>catching up on family news</u>. One story reminded us of something funny from the past, and soon everyone was laughing and adding their own memories. At first, I kept reaching for my phone out of habit. Then I <u>put it in my bag</u> and started paying attention to the conversation. Before I knew it, I'd stayed <u>much longer than planned</u>. <u>visit feel worthwhile</u>.
 
-**Looking back,** what I enjoyed most was <u>the company rather than the house</u> itself. That doesn't mean I'd want to move in permanently, though. **When it comes to how I feel about living there,** it wouldn't suit my current situation because my <u>job and daily life are in Shenzhen</u>. 
+what I enjoyed most was <u>the company rather than the house</u> itself. That doesn't mean I'd want to move in permanently, though. **When it comes to how I feel about living there,** it wouldn't suit my current situation because my <u>job and daily life are in Shenzhen</u>. 
 
 **To conclude,** I'd happily keep <u>visiting for short breaks</u>. That way, I can enjoy time with my relatives while keeping the <u>routine that works for me</u>.
 
