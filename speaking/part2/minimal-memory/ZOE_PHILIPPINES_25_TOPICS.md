@@ -54,6 +54,8 @@ One video that left the deepest impression on me was when Zoe shared stories abo
 
 ---
 
+<a id="p01"></a>
+
 ## P01 — 做成困难事情的人
 
 **Topic:** Describe a person who achieved something difficult.
@@ -89,6 +91,8 @@ To conclude, Zoe has had a real impact on me. Her experience encouraged me to ta
 **共用故事：**SHE
 
 ---
+
+<a id="p02"></a>
 
 ## P02 — 快乐的人
 
@@ -126,6 +130,8 @@ To conclude, **Zoe has had a real impact on me**. Her experience encouraged me t
 
 ---
 
+<a id="p03"></a>
+
 ## P03 — 有条理的人
 
 **Topic:** Describe a person you know who is very organized.
@@ -161,6 +167,8 @@ To conclude, Zoe has had a real impact on me. Her experience encouraged me to ta
 **共用故事：**SHE
 
 ---
+
+<a id="p04"></a>
 
 ## P04 — 爱拍照的人
 
@@ -198,6 +206,8 @@ To conclude, Zoe has had a real impact on me. Her experience encouraged me to ta
 
 ---
 
+<a id="p05"></a>
+
 ## P05 — 敬佩的年长者
 
 **Topic:** Describe an older person you admire.
@@ -233,6 +243,8 @@ To conclude, Zoe has had a real impact on me. Her experience encouraged me to ta
 **共用故事：**SHE
 
 ---
+
+<a id="p07"></a>
 
 ## P07 — 喜欢学历史的人
 
@@ -270,6 +282,8 @@ To conclude, **Zoe has had a real impact on me**. Her experience encouraged me t
 
 ---
 
+<a id="p08"></a>
+
 ## P08 — 教你新技能的人
 
 **Topic:** Describe a person who taught you a new skill.
@@ -305,6 +319,8 @@ To conclude, Zoe has had a real impact on me. Her experience encouraged me to ta
 **共用故事：**SHE
 
 ---
+
+<a id="p09"></a>
 
 ## P09 — 受欢迎的人
 
@@ -342,6 +358,8 @@ To conclude, Zoe has had a real impact on me. Her experience encouraged me to ta
 
 ---
 
+<a id="p11"></a>
+
 ## P11 — 有健康习惯与作息的人
 
 **Topic:** Describe a person who has healthy habits and a healthy daily routine.
@@ -377,6 +395,8 @@ To conclude, Zoe has had a real impact on me. Her experience encouraged me to ta
 **共用故事：**SHE
 
 ---
+
+<a id="p15"></a>
 
 ## P15 — 有成功生意的人
 
@@ -414,6 +434,8 @@ To conclude, Zoe has had a real impact on me. Her experience encouraged me to ta
 
 ---
 
+<a id="p16"></a>
+
 ## P16 — 擅长学语言的人
 
 **Topic:** Describe a person who is good at learning languages.
@@ -449,6 +471,8 @@ To conclude, Zoe has had a real impact on me. Her experience encouraged me to ta
 **共用故事：**SHE
 
 ---
+
+<a id="e01"></a>
 
 ## E01 — 结果满意的重要决定
 
@@ -486,6 +510,8 @@ To conclude, it taught me that a **careful decision** can still help me step out
 
 ---
 
+<a id="e02"></a>
+
 ## E02 — 看过的名人采访
 
 **Topic:** Describe a time you watched a famous person being interviewed.
@@ -521,6 +547,8 @@ To conclude, it was a memorable interview because it made me think more seriousl
 **共用故事：**INTERVIEW
 
 ---
+
+<a id="e07"></a>
 
 ## E07 — 经常做却浪费时间的活动
 
@@ -558,6 +586,8 @@ To conclude, watching videos is not always a waste of time, but **endless scroll
 
 ---
 
+<a id="e09"></a>
+
 ## E09 — 帮助别人的一次经历
 
 **Topic:** Describe a time you helped someone.
@@ -593,6 +623,8 @@ To conclude, I was happy because a small amount of practical help made a **real 
 **共用故事：**ME
 
 ---
+
+<a id="e10"></a>
 
 ## E10 — 一次早起经历
 
@@ -630,6 +662,8 @@ To conclude, it showed me that a **small change** to my morning could make learn
 
 ---
 
+<a id="e11"></a>
+
 ## E11 — 最近改变的计划
 
 **Topic:** Describe a plan you changed recently.
@@ -665,6 +699,8 @@ To conclude, I felt nervous but excited because the **new plan** was more practi
 **共用故事：**ME
 
 ---
+
+<a id="e13"></a>
 
 ## E13 — 做过的重要决定
 
@@ -702,6 +738,8 @@ To conclude, it was important because it changed the way I planned my career. I 
 
 ---
 
+<a id="e15"></a>
+
 ## E15 — 很久没收到回复的消息
 
 **Topic:** Describe a message you sent that took a long time to receive a reply to.
@@ -737,6 +775,8 @@ To conclude, I felt **relieved** when I got the reply, but the long delay taught
 **共用故事：**ME
 
 ---
+
+<a id="e16"></a>
 
 ## E16 — 改变重要观点
 
@@ -774,6 +814,8 @@ To conclude, I feel more positive about **investing in myself**. I have not forg
 
 ---
 
+<a id="e17"></a>
+
 ## E17 — 最近做出的改变
 
 **Topic:** Describe a change you made recently.
@@ -809,6 +851,8 @@ To conclude, it was a small but **meaningful change**. It reminded me that daily
 **共用故事：**ME
 
 ---
+
+<a id="o03"></a>
 
 ## O03 — 有趣的视频
 
@@ -846,6 +890,8 @@ To conclude, it was much more useful than an ordinary travel video. I even **sav
 
 ---
 
+<a id="o07"></a>
+
 ## O07 — 有名人出演的广告
 
 **Topic:** Describe an advertisement featuring a famous person.
@@ -882,6 +928,8 @@ To conclude, the advertisement caught my attention because the product matched m
 
 ---
 
+<a id="o10"></a>
+
 ## O10 — 长期目标／抱负
 
 **Topic:** Describe a long-term goal or ambition you have.
@@ -917,6 +965,8 @@ To conclude, I know this goal will take time, but I want to keep moving forward.
 **共用故事：**ME
 
 ---
+
+<a id="l08"></a>
 
 ## L08 — 推荐的旅行地
 
