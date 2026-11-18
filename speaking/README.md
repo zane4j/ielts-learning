@@ -2,6 +2,11 @@
 
 [返回首页](../README.md)
 
+## Part 3 · 10 个场景复用
+
+- [10 个场景与 40 个完整回答](part3/README.md)：复用既有 Part 1 / Part 2 素材，共用例子句保留，题目定制内容加粗。
+- [40 题速查](part3/QUESTION_INDEX.md)：按问题定位约 40 秒的回答和复述提示。
+
 ## Part 2 · 最小化记忆量（独立研究）
 
 - [Zoe + 菲律宾英语学习计划 · 研究目录](part2/minimal-memory/README.md)：中国大陆 54 题矩阵与判定规则，不修改已定稿 Zoe 正文。
