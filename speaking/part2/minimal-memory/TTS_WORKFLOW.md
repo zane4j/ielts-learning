@@ -24,7 +24,7 @@
 2. 国内版使用默认 https://api.minimaxi.com/v1；若 API Key 来自国际版，在 Repository variables 中保存 MINIMAX_API_BASE=https://api.minimax.io/v1。
 3. 进入仓库 Actions → Generate IELTS Part 2 MP3 (MiniMax) → Run workflow，填 P16 试听或 all 生成全部。
 4. 进入运行记录底部 Artifacts 下载 ielts-part2-mp3-P16，解压后得到对应的中文主题命名 MP3。
-5. 本次工作流更新的 push 触发器会自动生成一份 P16 测试音频；若进一步关闭此自动触发，以后只能手动运行，避免无意再次付费。
+5. P16 试听已验证成功；目前已关闭 push 自动调用，仅在用户主动点击 Run workflow 时生成，避免每次代码提交产生额外语音费用。
 
 ## 无需付费的测试
 
