@@ -158,4 +158,34 @@ In conclusion, accepting a bad situation can sometimes be the most sensible shor
 - [ ] 每个主体段只写一条明确逻辑链：Point → Why/How → Example → Result → Link back。
 - [ ] 重新独立限时写整篇，对比本次真实原文，不只照抄范文。
 
+## 9｜Band 7.0 目标：按四段式模板套用的完整范文（保留方括号）
+
+> **新增固定复盘要求**：每次独立作文复盘，除语言修正版、较高分目标范文外，还要额外提供一篇**目标 Band 7.0 的「模板套用完整范文」**。使用与题型对应的既有四段模板，**模板中的固定功能句保持原样，可替换槽位以 [填入的实际内容] 显示**，不要删除 [ ]。考试时去掉括号即可得到自然文章。括号用于学习标识，**不建议原样带入考场**。目标分数是学习定位，非官方评级。
+>
+> 本篇采用 [七类题型模板中的第 2 类：Discuss Both Views + Opinion](../10_七类题型_四段式模板与例子.md#2discuss-both-views--opinion-双边讨论题)，主题与题目一致，要求两个 Body 分别解释双方观点。英文正文目标约 260–290 词。
+
+### 按模板套用的完整文章
+
+Some people believe that [accepting a difficult situation is the safest choice], while others argue that [people should try to improve their circumstances]. Although [acceptance can provide stability in uncertain times], I believe that [taking practical action] is generally a better approach because [it gives people more control over their future].
+
+On the one hand, one major reason why some people support [accepting an unpleasant situation] is that [it can protect their financial security]. This is because [changing jobs or making a major decision may involve considerable risks]. For example, [an employee who dislikes their position may still depend on a regular salary to pay rent and support their family]. Leaving without another offer could create more serious problems than staying for a few months. As a result, [accepting the situation temporarily can provide time to save money and make a careful plan].
+
+On the other hand, I believe that [trying to improve a difficult situation] is more beneficial because [it can create new opportunities and improve people's quality of life]. For instance, [a worker who is unhappy with their salary could learn new skills and apply for better positions while keeping their current job]. This approach does not require an immediate and risky change. It also gives people a clear goal and helps them feel less helpless. This can lead to [higher earnings and greater job satisfaction]. Therefore, [gradual improvement is usually more effective than simply accepting an unsatisfactory situation forever].
+
+In conclusion, while [accepting a difficult situation] may be useful in [the short term], I believe that [taking sensible steps to improve it] is a better [long-term] approach because [it allows people to make progress without exposing themselves to unnecessary risks].
+
+### 填空回顾：固定框架与个性化内容
+
+| 段落 | 固定模板功能句 | 本题替换内容（保留 []） |
+| --- | --- | --- |
+| Introduction | Some people believe that ..., while others argue that ... | [accepting a difficult situation is the safest choice] / [people should try to improve their circumstances] |
+| Introduction | Although ..., I believe that ... because ... | [acceptance can provide stability in uncertain times] / [taking practical action] / [it gives people more control over their future] |
+| Body 1 | On the one hand, one major reason why some people support ... is that ... | [accepting an unpleasant situation] / [it can protect their financial security] |
+| Body 1 | This is because ... For example ... As a result ... | [changing jobs or making a major decision may involve considerable risks] / [an employee who dislikes their position may still depend on a regular salary to pay rent and support their family] / [accepting the situation temporarily can provide time to save money and make a careful plan] |
+| Body 2 | On the other hand, I believe that ... is more beneficial because ... | [trying to improve a difficult situation] / [it can create new opportunities and improve people's quality of life] |
+| Body 2 | For instance ... This can lead to ... Therefore ... | [a worker who is unhappy with their salary could learn new skills and apply for better positions while keeping their current job] / [higher earnings and greater job satisfaction] / [gradual improvement is usually more effective than simply accepting an unsatisfactory situation forever] |
+| Conclusion | In conclusion, while ... may be useful in ..., I believe that ... is a better ... approach because ... | [accepting a difficult situation] / [the short term] / [taking sensible steps to improve it] / [long-term] / [it allows people to make progress without exposing themselves to unnecessary risks] |
+
+**复习方法**：第一遍只看固定模板功能句；第二遍根据题目自己填写 []；第三遍去掉 [] 限时写完整文章。重点不是背括号里的答案，而是学会根据观点替换内容。
+
 [继续学习：七类题型四段式模板与套用示例](../10_七类题型_四段式模板与例子.md)
