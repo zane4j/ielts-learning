@@ -4,6 +4,7 @@
 
 ## Speaking · 口语
 
+| **Part 1 · 40 个 Topic 音频** | **197 组 Question–Answer，每题按顺序朗读，HeyGen MP3 自动下载打包** | [Part 1 目录与使用说明](speaking/part1/README.md) · [GitHub Actions 一键下载](.github/workflows/download-heygen-part1.yml) |
 | 分类 | 内容 | 入口 |
 | --- | --- | --- |
 | **Part 3 · 10 个复用场景** | **40 道题与约 40 秒完整回答，差异内容加粗** | [场景目录](speaking/part3/README.md) · [40 题速查](speaking/part3/QUESTION_INDEX.md) |
