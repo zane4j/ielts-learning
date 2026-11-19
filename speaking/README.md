@@ -2,6 +2,10 @@
 
 [返回首页](../README.md)
 
+## Part 1 · 40 个 Topic / 197 组问答
+
+- [Part 1 HeyGen 音频与 GitHub Actions 批量下载说明](part1/README.md)：按原 Excel 顺序，40 个 Topic 各一个 MP3，自动校验并 ZIP 打包。
+
 ## Part 3 · 10 个场景复用
 
 - [10 个场景与 40 个完整回答](part3/README.md)：复用既有 Part 1 / Part 2 素材，共用例子句保留，题目定制内容加粗。
