@@ -12,7 +12,7 @@
 
 ## 使用 GitHub Actions 一键下载与打包
 
-1. 进入 **[Download HeyGen IELTS Part 1 (40 MP3)](../../actions/workflows/download-heygen-part1.yml)**。
+1. 进入 **[Download HeyGen IELTS Part 1 (40 MP3)](https://github.com/zane4j/ielts-learning/actions/workflows/download-heygen-part1.yml)**。
 2. 点击 **Run workflow**，分支选 `main`，然后运行；也会在首次提交工作流时自动触发。
 3. 等待执行结果为绿色 **Success**。
 4. 打开对应运行记录，找到页面底部的 **Artifacts**，下载 **`ielts-part1-40-mp3`**。
