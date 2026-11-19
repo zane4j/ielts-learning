@@ -8,7 +8,7 @@
 | --- | --- | --- |
 | **Part 3 · 10 个复用场景** | **40 道题与约 40 秒完整回答，差异内容加粗** | [场景目录](speaking/part3/README.md) · [40 题速查](speaking/part3/QUESTION_INDEX.md) |
 | **Part 2 记忆最小化研究** | Zoe + 菲律宾故事，中国大陆 54 题适配分析 | [研究目录](speaking/part2/minimal-memory/README.md) |
-| **Part 2 人物类 · 最终定稿** | Zoe 母版，24 个 Topic，三段式完整文章 | [IELTS_Part2_Zoe.md](speaking/part2/people/IELTS_Part2_Zoe.md) |
+| **Part 2 人物类 · 最终定稿** | Zoe 母版，24 个 Topic，三段式完整文章 | [IELTS_Part2_Zoe.md](speaking/part2/people/IELTS_Part2_Zoe.md) · [24 题 MP3 打包](speaking/part2/people/HEYGEN_AUDIO.md) |
 | **Part 2 地点类** | **9 篇整合在同一 Markdown，5 行关键词对应原文高亮** | [地点类 9 篇合并稿](speaking/part2/places/IELTS_Part2_Places_9_Topics.md) · [地点类目录](speaking/part2/places/README.md) |
 | Part 2 事件类 | 17 个 Topic 和 Cue Card | [事件类题库](speaking/part2/topics/events/README.md) |
 | Part 2 物品及抽象事物类 | 12 个 Topic 和 Cue Card | [物品类题库](speaking/part2/topics/objects/README.md) |
