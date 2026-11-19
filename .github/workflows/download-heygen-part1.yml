@@ -1,0 +1,45 @@
+name: Download HeyGen IELTS Part 1 (40 MP3)
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/download-heygen-part1.yml'
+      - 'scripts/download_heygen_part1.py'
+      - 'speaking/part1/heygen_audio_40.csv'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: heygen-part1-audio
+  cancel-in-progress: false
+
+jobs:
+  download-and-package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Verify all 40 Topics and 197 Q&A entries
+        run: python3 scripts/download_heygen_part1.py --dry-run
+
+      - name: Download, validate and ZIP 40 HeyGen MP3 files
+        run: python3 scripts/download_heygen_part1.py
+
+      - name: Upload downloadable MP3 ZIP
+        uses: actions/upload-artifact@v4
+        with:
+          name: ielts-part1-40-mp3
+          path: dist/IELTS_Part1_40_Topics_MP3.zip
+          if-no-files-found: error
+          retention-days: 14
