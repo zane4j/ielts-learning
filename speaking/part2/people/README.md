@@ -4,6 +4,8 @@
 
 **唯一当前正式稿：** [IELTS_Part2_Zoe.md](IELTS_Part2_Zoe.md)。
 
+**一键下载 24 题 HeyGen MP3：** [GitHub Actions 下载与 ZIP 打包说明](HEYGEN_AUDIO.md)。
+
 - 模板：**1 — INTRO → 2 — WHAT → 3 — WHY / HOW**
 - 完整原稿包括两个核心 Example、24 篇完整回答及备考提醒。
 - **加粗英文是每题新增或替换的内容**，普通英文是复用句。
