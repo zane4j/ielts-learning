@@ -1,5 +1,7 @@
 # 雅思小作文 · 必备句型与完整写作手册
 
+> **四大题型完整模板入口：**[统一总目录](templates/README.md) · [动态图](templates/dynamic-charts.md) · [静态图](templates/static-charts.md) · [地图题](templates/maps.md) · [流程图](templates/process-diagrams.md)。本文件保留原有句型资料及历史整理；四段式母模板、完整示范与专题错题请进入对应独立笔记。
+
 基于上传笔记的六个板块整理，增加 Overview 写法、数据表达纠错、分题型实例、模拟练习及参考答案。目标：稳定 6.5–7 分的准确表达。
 
 原笔记提炼 + 新增拓展 + 纠错说明
@@ -133,7 +135,7 @@
 
 **拓展：**1920 → Today 可以用现在完成时突出至今的结果，也可以用过去时描述当时的设施；避免“has been built in 1920”这类与确切过去时间冲突的表达。
 
-[关联练习：Grange Park 地图题的原文、6.5+ 修订和 7.5 范文](cambridge14-test4-grange-park.html)
+[关联练习：Grange Park 地图题的原文、6.5+ 修订和 7.5 范文](cambridge14-test4-grange-park.md)
 
 ## 六、考前使用建议
 
@@ -221,7 +223,7 @@
 
 - 纠错：The number of population growed dramatically in 2020.
 
-查看参考答案（做完再展开）
+参考答案（请先独立练习）
 
 - The proportion of commuters using cars fell from 60% in 2000 to 35% in 2020.
 
@@ -241,7 +243,7 @@
 
 ## 十一、完整四段范例 · 就业占比柱状图
 
-**模拟题：**某国五个行业 2000 和 2020 年就业占比。Agriculture 20%→8%，Manufacturing 28%→18%，Construction 15%→13%，Technology 10%→23%，Services 27%→38%。[查看此前的真实原文和修改对照](employment-sector-review.html)。
+**模拟题：**某国五个行业 2000 和 2020 年就业占比。Agriculture 20%→8%，Manufacturing 28%→18%，Construction 15%→13%，Technology 10%→23%，Services 27%→38%。[查看此前的真实原文和修改对照](employment-sector-review.md)。
 
 **下面的完整文章是本次新增的学习范文**，不是该视频的范文，也不是用户之前原稿。
 
@@ -257,9 +259,9 @@ In 2000, manufacturing accounted for the highest proportion, **at 28%**, closely
 
 上传原笔记：《雅思小作文（Task 1）必备句型·完整干货笔记.md》。官方补充资料：[IELTS Academic Writing 格式与时间要求](https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing)、[IELTS Writing 准备资源](https://ielts.org/take-a-test/preparation-resources/writing-test-resources/)、[官方四维评分描述](https://ielts.org/cdn/ielts-guides/ielts-writing-band-descriptors.pdf)。
 
-本站的 B1–B2 示例与模拟数据仅用于学习，不代表官方雅思题目与评分。可从 [Task 1 批改目录](index.html) 返回其他习题。
+本站的 B1–B2 示例与模拟数据仅用于学习，不代表官方雅思题目与评分。可从 [Task 1 批改目录](README.md) 返回其他习题。
 
-IELTS Task 1 Sentence Handbook · Reading-first HTML · Source and additions distinguished
+IELTS Task 1 Sentence Handbook · Markdown · Source and additions distinguished
 
 ---
 
