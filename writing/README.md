@@ -6,6 +6,7 @@
 
 - [Task 1 批改与学习资料总目录](task1/README.md)
 - [Task 1 必备句型手册](task1/sentence-handbook.md)
+- **[Task 1 地图题专项笔记｜模板、10 轮纠错与复用例句](task1/map-writing-practice-and-templates-2026-11-23.md)**
 
 ## Task 2 · 大作文
 
