@@ -7,6 +7,7 @@ Task 1 已改为 Markdown 阅读稿；依然按照原有资料区分“真实原
 ## 句型手册
 
 - [Task 1 必备句型与完整写作手册](sentence-handbook.md)
+- **[地图题专项｜四段式模板 + 10 轮中译英批改 + 20 个例句（2026-11-23）](map-writing-practice-and-templates-2026-11-23.md)**
 
 ## 原文完整（2 篇）
 
