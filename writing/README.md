@@ -4,6 +4,9 @@
 
 ## Task 1 · 小作文
 
+- **[Task 1 四大题型完整模板总目录](task1/templates/README.md)**
+- [动态图完整模板](task1/templates/dynamic-charts.md) · [静态图完整模板](task1/templates/static-charts.md)
+- [地图题完整模板](task1/templates/maps.md) · [流程图完整模板](task1/templates/process-diagrams.md)
 - [Task 1 批改与学习资料总目录](task1/README.md)
 - [Task 1 必备句型手册](task1/sentence-handbook.md)
 - **[Task 1 地图题专项笔记｜模板、10 轮纠错与复用例句](task1/map-writing-practice-and-templates-2026-11-23.md)**
