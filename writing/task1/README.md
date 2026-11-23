@@ -4,6 +4,17 @@
 
 Task 1 已改为 Markdown 阅读稿；依然按照原有资料区分“真实原文完整”“部分原文”和“原文待补”。
 
+## 四大题型完整模板（推荐从这里开始）
+
+**[四类题型统一总目录｜动态图 / 静态图 / 地图 / 流程图](templates/README.md)**
+
+| 题型 | 四段式完整笔记 |
+| --- | --- |
+| 动态图 · 趋势、时间变化、数据比较 | [动态图完整模板](templates/dynamic-charts.md) |
+| 静态图 · 排名、占比、差距、倍数 | [静态图完整模板](templates/static-charts.md) |
+| 地图题 · 方位、替换、过去现在未来 | [地图题完整模板](templates/maps.md) |
+| 流程图 · 阶段、Overview、被动语态 | [流程图完整模板](templates/process-diagrams.md) |
+
 ## 句型手册
 
 - [Task 1 必备句型与完整写作手册](sentence-handbook.md)
