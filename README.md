@@ -21,6 +21,8 @@
 ## Writing · 写作
 
 - [Writing 总目录](writing/README.md)
+- **[Task 1 四大题型完整模板｜动态图 / 静态图 / 地图 / 流程图](writing/task1/templates/README.md)**
+- [动态图](writing/task1/templates/dynamic-charts.md) · [静态图](writing/task1/templates/static-charts.md) · [地图题](writing/task1/templates/maps.md) · [流程图](writing/task1/templates/process-diagrams.md)
 - [Task 1 小作文批改目录](writing/task1/README.md)
 - [Task 1 必备句型手册](writing/task1/sentence-handbook.md)
 - **[Task 1 地图题专项｜四段模板、10 轮批改与例句](writing/task1/map-writing-practice-and-templates-2026-11-23.md)**
