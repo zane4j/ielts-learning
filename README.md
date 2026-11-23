@@ -23,6 +23,7 @@
 - [Writing 总目录](writing/README.md)
 - [Task 1 小作文批改目录](writing/task1/README.md)
 - [Task 1 必备句型手册](writing/task1/sentence-handbook.md)
+- **[Task 1 地图题专项｜四段模板、10 轮批改与例句](writing/task1/map-writing-practice-and-templates-2026-11-23.md)**
 
 ## Writing Task 2 · 大作文
 
