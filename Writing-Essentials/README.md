@@ -6,16 +6,28 @@
 
 ## 从这里开始
 
-| 小作文 Task 1 | 大作文 Task 2 |
-| --- | --- |
-| [Task 1 全目录](Task1/README.md) | [Task 2 全目录](Task2/README.md) |
-| [动态图](Task1/dynamic-charts.md) | [同意反对（含可选让步拉回）](Task2/opinion.md) |
-| [静态图](Task1/static-charts.md) | [双边讨论](Task2/discussion.md) |
-| [混合图](Task1/mixed-charts.md) | [利弊分析](Task2/advantages-disadvantages.md) |
-| [流程图：扩展 Introduction / Overview](Task1/process-diagrams.md) | [利弊权衡 Outweigh](Task2/outweigh.md) |
-| [地图题](Task1/maps.md) | [正负发展](Task2/positive-negative.md) |
-| [Task 1 高频母句](Task1/sentence-bank.md) | [问题、原因与解决（含变体）](Task2/causes-solutions.md) |
-| [原 Task 1 详细笔记](../writing/task1/templates/README.md) | [双问题](Task2/two-part.md) · [Task 2 高频母句](Task2/sentence-bank.md) |
+### 小作文 Task 1
+
+- [Task 1 全目录](Task1/README.md)
+- [动态图](Task1/dynamic-charts.md)
+- [静态图](Task1/static-charts.md)
+- [混合图](Task1/mixed-charts.md)
+- [流程图：扩展 Introduction / Overview](Task1/process-diagrams.md)
+- [地图题](Task1/maps.md)
+- [Task 1 高频母句](Task1/sentence-bank.md)
+- [原 Task 1 详细笔记](../writing/task1/templates/README.md)
+
+### 大作文 Task 2
+
+- [Task 2 全目录](Task2/README.md)
+- [同意反对（含可选让步拉回）](Task2/opinion.md)
+- [双边讨论](Task2/discussion.md)
+- [利弊分析](Task2/advantages-disadvantages.md)
+- [利弊权衡 Outweigh](Task2/outweigh.md)
+- [正负发展](Task2/positive-negative.md)
+- [问题、原因与解决（含变体）](Task2/causes-solutions.md)
+- [双问题](Task2/two-part.md)
+- [Task 2 高频母句](Task2/sentence-bank.md)
 
 ## 怎么背｜把记忆量压到可用程度
 
