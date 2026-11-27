@@ -2,7 +2,7 @@
 
 [必背总目录](../README.md) · [本类目录](README.md) · [Writing 目录](../../writing/README.md) · [仓库首页](../../README.md)
 
-> **必背：**制造类 Introduction + 线性双句 Overview + before being / which / where。**选背：**原料转化、自然循环、分支流程变体。只写图中已有信息；阶段数不明就用 a series of stages。下列模板沿用原母句，吸收近期方便面练习；原图未随本任务提供，示例不是对原题步骤数的核定。
+> **必背：** 制造类 Introduction + 线性双句 Overview + before being / which / where。**选背：** 原料转化、自然循环、分支流程变体。只写图中已有信息；阶段数不明就用 a series of stages。下列模板沿用原母句，吸收近期方便面练习；原图未随本任务提供，示例不是对原题步骤数的核定。
 
 ## 四段连续模板｜线性制造
 
@@ -46,7 +46,7 @@ Overall, this is a cyclical process in which [SUBJECT] passes through [MAIN TRAN
 
 循环主体也用四段：Introduction / Overview / Initially, [EARLY STAGES]. After [EVENT], [NEXT STAGE]. / Subsequently, [LATER STAGES]. Finally, [RETURN TO START]. 自然动作优先用主动，如 Water evaporates；不把生物成长全部改成被动。
 
-**D｜分支或多产物，了解：**Overall, the process involves [MAIN TRANSFORMATION], after which the material is divided into [BRANCHES / OUTPUTS]. 主体按分支分组，不强写单一路径。阶段数、分支数均须可确定。
+**D｜分支或多产物，了解：** Overall, the process involves [MAIN TRANSFORMATION], after which the material is divided into [BRANCHES / OUTPUTS]. 主体按分支分组，不强写单一路径。阶段数、分支数均须可确定。
 
 ## 从100词扩到150–170词｜五种有效补充
 
@@ -62,7 +62,7 @@ Overall, this is a cyclical process in which [SUBJECT] passes through [MAIN TRAN
 
 ## 完整模拟例子｜方便面生产（非原题核定版）
 
-**为本页明确设定的八个主阶段：**①储存面粉；②加水油混合；③压片；④切条；⑤制成面饼；⑥油煮并干燥；⑦装杯并加蔬菜香料；⑧密封贴标。第⑥⑦⑧各含多个操作。本例不沿用历史答复中未核定的 nine stages，实际考试以原图编号为准。
+**为本页明确设定的八个主阶段：** ①储存面粉；②加水油混合；③压片；④切条；⑤制成面饼；⑥油煮并干燥；⑦装杯并加蔬菜香料；⑧密封贴标。第⑥⑦⑧各含多个操作。本例不沿用历史答复中未核定的 nine stages，实际考试以原图编号为准。
 
 The diagram illustrates the various stages involved in the process of manufacturing instant noodles from flour.
 
@@ -74,10 +74,10 @@ Following this, the noodle discs are cooked in oil and then dried. Once they hav
 
 ## 易错点与自检
 
-- 近期练习：**noodles**，不是 noddles；**into**，不是 in to；不用 we get 描述生产结果。
-- **Once they have been dried**，避免 Once noodles are already dried；一般现在时 Once they are dried 也可用。
-- **before being processed**，不是材料自己 before processing；which are 对应 strips，which is 对应 dough。
-- **consists of**，不是 is consisted of；没有确定阶段数就删掉数字。
+- 近期练习：**noodles** ，不是 noddles；**into** ，不是 in to；不用 we get 描述生产结果。
+- **Once they have been dried** ，避免 Once noodles are already dried；一般现在时 Once they are dried 也可用。
+- **before being processed** ，不是材料自己 before processing；which are 对应 strips，which is 对应 dough。
+- **consists of** ，不是 is consisted of；没有确定阶段数就删掉数字。
 - 双句 Overview 是否增加了宏观信息？是否漏掉分支、回流或最终产物？
 
 [保留的流程图完整笔记与塑料回收范文](../../writing/task1/templates/process-diagrams.md)

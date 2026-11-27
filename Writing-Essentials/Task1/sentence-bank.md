@@ -19,14 +19,14 @@
 | 产物衔接 | [A] is processed into [B], which is then [V-ed]. | 单复数随B调整 |
 | 地图变化 | [A] was replaced by [B], while [C] remained unchanged. | 两个过去时期 |
 
-**选背：**peaked at / fluctuated between / was converted into / is planned to be built。**了解：**罕见同义词；先保准确，再考虑变化。
+**选背：** peaked at / fluctuated between / was converted into / is planned to be built。**了解：** 罕见同义词；先保准确，再考虑变化。
 
 ## 三组最值得记的对照
 
-- **rose to 30% / rose by 10 percentage points**：终值 / 增量。
-- **which is then / which are then**：看最近产物的单复数。
-- **was replaced / has been replaced / will be replaced**：过去 / 截至现在的结果 / 未来。
+- **rose to 30% / rose by 10 percentage points** ：终值 / 增量。
+- **which is then / which are then** ：看最近产物的单复数。
+- **was replaced / has been replaced / will be replaced** ：过去 / 截至现在的结果 / 未来。
 
-**例句（模拟）：**The figure for buses rose from 20% to 40%, whereas car use declined. / The old car park was replaced by a café.
+**例句（模拟）：** The figure for buses rose from 20% to 40%, whereas car use declined. / The old car park was replaced by a café.
 
 [原句型手册](../../writing/task1/sentence-handbook.md) · [流程图扩展专项](process-diagrams.md)

@@ -20,10 +20,10 @@
 
 ## 选背｜四个可选模块
 
-1. **让步拉回：**Admittedly, [OPPOSITE VIEW] has some merit because [REASON]. However, this does not necessarily mean that [OPPOSITE CONCLUSION]. Therefore, [MAIN POSITION].
-2. **轻重比较：**This benefit is more significant than [DRAWBACK] because [CONCRETE CRITERION].
-3. **双边讨论：**On the one hand, [WHY A IS REASONABLE]. On the other hand, [WHY B IS REASONABLE]. 双方各有完整逻辑链。
-4. **强限定词：**Although [X] can [BENEFIT], this does not mean it is the only/best way to [GOAL]. [ALTERNATIVE] can also [RESULT]. 支持 most important 时也要说明优先级。
+1. **让步拉回：** Admittedly, [OPPOSITE VIEW] has some merit because [REASON]. However, this does not necessarily mean that [OPPOSITE CONCLUSION]. Therefore, [MAIN POSITION].
+2. **轻重比较：** This benefit is more significant than [DRAWBACK] because [CONCRETE CRITERION].
+3. **双边讨论：** On the one hand, [WHY A IS REASONABLE]. On the other hand, [WHY B IS REASONABLE]. 双方各有完整逻辑链。
+4. **强限定词：** Although [X] can [BENEFIT], this does not mean it is the only/best way to [GOAL]. [ALTERNATIVE] can also [RESULT]. 支持 most important 时也要说明优先级。
 
 ## 短例子｜同一骨架迁移
 
@@ -31,6 +31,6 @@ By [increasing bus frequency], [transport authorities] can [make public transpor
 
 By [providing training at work], [employers] can [help staff develop practical skills]. As a result, [employees may complete unfamiliar tasks more effectively].
 
-**了解：**不必为了词汇变化背十种 This is because；先能解释完整因果。避免 it is obvious that / every coin has two sides 等不能提供题目内容的句子。
+**了解：** 不必为了词汇变化背十种 This is because；先能解释完整因果。避免 it is obvious that / every coin has two sides 等不能提供题目内容的句子。
 
 [原三大母模板](../../writing/task2/03_三大母模板_Effects_Facts_TwoPart.md) · [原四个可选模块](../../writing/task2/04_四个可选模块.md) · [原功能句型库](../../writing/task2/05_功能句型库_Introduction_Body_Conclusion.md)

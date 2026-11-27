@@ -2,7 +2,7 @@
 
 [必背总目录](../README.md) · [本类目录](README.md) · [Writing 目录](../../writing/README.md) · [仓库首页](../../README.md)
 
-> **必背：**下列四段骨架和功能母句；**选背：**与题图匹配的变体；**了解：**原笔记的更多表达。[ ] 内填题目事实，考场去掉标记。模板不是填完就自动达到150词的范文。
+> **必背：** 下列四段骨架和功能母句；**选背：** 与题图匹配的变体；**了解：** 原笔记的更多表达。[ ] 内填题目事实，考场去掉标记。模板不是填完就自动达到150词的范文。
 
 ## 四段连续模板
 
@@ -27,14 +27,14 @@ By [END YEAR], [A] had reached [FINAL A], whereas [B] stood at [FINAL B]. The fi
 | 转折 | It rose to [X] before falling to [Y]. | before + V-ing |
 | 增幅 | The share rose by [N] percentage points. | 20%→30% 是10个百分点，不是10% |
 
-**例句（模拟）：**The share of bus users rose from 20% to 40%, overtaking cars by 2020.
+**例句（模拟）：** The share of bus users rose from 20% to 40%, overtaking cars by 2020.
 
-**常见错误：**increase to 是最终值；increase by 是增量。number 用于可数人数/数量；proportion 用于占比。预测年份用 is projected to / is expected to，不能写成已经发生的事实。
+**常见错误：** increase to 是最终值；increase by 是增量。number 用于可数人数/数量；proportion 用于占比。预测年份用 is projected to / is expected to，不能写成已经发生的事实。
 
 ## 字数与有效扩展
 
-练习目标 **150–170词**：Introduction 约20，Overview 约30，两个 Body 各约55，共约160。以总词数为准，不逐段凑数。增加有图据的关键数据、比较、方位和例外；不写主观原因或重复 Overview。
+练习目标 **150–170词** ：Introduction 约20，Overview 约30，两个 Body 各约55，共约160。以总词数为准，不逐段凑数。增加有图据的关键数据、比较、方位和例外；不写主观原因或重复 Overview。
 
-**完整应用与模拟设定：**[原有动态图四段范文与详细笔记](../../writing/task1/templates/dynamic-charts.md)。原资料保留，必背页负责提炼框架。
+**完整应用与模拟设定：** [原有动态图四段范文与详细笔记](../../writing/task1/templates/dynamic-charts.md)。原资料保留，必背页负责提炼框架。
 
-**自检：**Overview 是否概括两点？主体是否有数据/位置证据？比较对象、单位、时态是否一致？
+**自检：** Overview 是否概括两点？主体是否有数据/位置证据？比较对象、单位、时态是否一致？
