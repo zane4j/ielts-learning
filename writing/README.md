@@ -4,6 +4,8 @@
 
 ## Task 1 · 小作文
 
+**[独立必背区｜Writing Essentials](../Writing-Essentials/README.md)** · [Task 1](../Writing-Essentials/Task1/README.md) · [Task 2](../Writing-Essentials/Task2/README.md)
+
 - **[Task 1 四大题型完整模板总目录](task1/templates/README.md)**
 - [动态图完整模板](task1/templates/dynamic-charts.md) · [静态图完整模板](task1/templates/static-charts.md)
 - [地图题完整模板](task1/templates/maps.md) · [流程图完整模板](task1/templates/process-diagrams.md)

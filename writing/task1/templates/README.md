@@ -1,5 +1,7 @@
 # IELTS Writing Task 1｜四大题型完整模板总目录
 
+**[进入独立必背区｜五类模板与流程图前两段扩展](../../../Writing-Essentials/Task1/README.md)**
+
 [返回 Task 1 目录](../README.md) · [返回 Writing](../../README.md) · [返回首页](../../../README.md)
 
 > **使用方式：**先确定题目属于动态图、静态图、地图还是流程图，再打开对应的四段式模板笔记。每页包含 **Introduction / Overview / Body 1 / Body 2 完整模板、必背句型、完整模拟范文、常见错误、考前检查表**。适用于 B1–B2 稳定冲刺 IELTS Writing Task 1 6.5–7.0 的练习。模板是学习工具，不是官方评分保证。

@@ -1,5 +1,7 @@
 # IELTS Writing Task 2｜大作文完整笔记
 
+**[Task 2 独立必背模板｜七类题型与可选让步拉回](../../Writing-Essentials/Task2/README.md)**
+
 [返回 Writing 目录](../README.md) · [返回仓库首页](../../README.md)
 
 > **目标 Band 6.5–7**。核心是 Effects / Facts / Two-Part 三大母模板、四个可选模块、PCAE / CAF、15 类高频话题及 75 个观点。

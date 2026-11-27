@@ -20,6 +20,8 @@
 
 ## Writing · 写作
 
+**[Writing Essentials｜大小作文必背模板总目录](Writing-Essentials/README.md)**：五类小作文、七类大作文、流程图扩展与高频母句。
+
 - [Writing 总目录](writing/README.md)
 - **[Task 1 四大题型完整模板｜动态图 / 静态图 / 地图 / 流程图](writing/task1/templates/README.md)**
 - [动态图](writing/task1/templates/dynamic-charts.md) · [静态图](writing/task1/templates/static-charts.md) · [地图题](writing/task1/templates/maps.md) · [流程图](writing/task1/templates/process-diagrams.md)
